@@ -118,11 +118,26 @@ div p.wte-text{
 
 
 /* Speaker */
-.speaker-text{
-    margin-top: 3vh !important;
+div#speaker-text{
+    margin-top: 4vh !important;
 }
 .top-buffer{
     margin-top:3vh; 
+}
+
+/* Codespace */
+#codecontent{
+    margin-top: 2em !important;
+    text-align: justify !important;
+}
+
+#codedates{
+    margin-top: 0.66em !important;
+    font-size: 30px !important;
+}
+#coderegister{
+    margin-top: 1em !important;
+    color:#fafafa !important;
 }
 
 /* FAQ */
