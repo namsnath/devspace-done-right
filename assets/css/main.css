@@ -3,10 +3,11 @@
     height: 100vh;
     width: 100vw;
     text-align: center;
-    font-size: 3em;
     color: #FFFAF2;
     padding-left: 30px;
     padding-right: 50px;
+    background-size: cover;
+    background-image: url(assets/img/main_bg.jpg);
 }
 
 .section:nth-child(1) {
@@ -51,7 +52,7 @@ a:hover {
 
 .navbar {
     margin: 0;
-    background-color: #2a2a2a;
+    background-color: #2a2a2a !important;
     display: none;
 }
 .navbar.navbar-fixed-top {
@@ -88,4 +89,67 @@ a.navbar-brand {
     width: 100% !important;
     height: auto;
     margin-top: 40vh;   
+}
+/* landing */
+div#section div.line1{
+	margin-top: 30vh;	
+	font-size: 32px !important;
+	font-weight: 300;
+}
+div#section div.line2{
+	margin-top: 2vh;
+	font-size: 16px !important;
+	font-weight: 300;
+}
+div#section div.line3{
+	margin-top: 2.5vh;
+	font-size: 24px !important;
+	font-weight: 300;
+}
+
+/* what to expect portion */
+img.wte{
+    padding: 20px !important;
+}
+div p.wte-text{
+    font-size: 1em !important;
+    text-align: justify;
+}
+
+
+/* Speaker */
+.top-buffer{
+    margin-top:8vh; 
+}
+
+.bottom-buffer{
+    margin-top:8vh; 
+}
+
+/* FAQ */
+#faq_container
+{
+    width: 100%;
+    height: 70%;
+}
+#faq_row
+{ 
+    padding: 7%;
+    padding-top: 4%;
+    padding-bottom: 2% !important; 
+}
+#faq_row1
+{ 
+    padding: 7%;
+    padding-top: 2% !important;
+}
+.faq_header{
+    text-align: left;
+    color: blue;
+    font-size: 20px;
+}
+.faq_content{
+    text-align: justify;
+    padding-left: 5%;
+    text-align: 10px;
 }

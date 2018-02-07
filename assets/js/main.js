@@ -3,7 +3,7 @@ setTimeout(init,2000);
 
 function init() {
 
-    $('.navbar').fadeIn();
+    // $('.navbar').hide().fadeIn();
 
 
     $(function() {
@@ -37,9 +37,12 @@ function init() {
                 afterRender: function(){},
         });
 
+
+
         $.fn.pagepiling.moveSectionDown();
         setTimeout(deleteNode,200);
-        
+        $('.navbar').css("display","block");
+    
     });
 }
 
