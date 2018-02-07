@@ -35,7 +35,7 @@ function init() {
                 onLeave: function(index, nextIndex, direction){},
                 afterLoad: function(anchorLink, index){},
                 afterRender: function(){},
-        });
+        });     
 
 
 

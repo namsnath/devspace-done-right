@@ -109,7 +109,7 @@ div#section div.line3{
 
 /* what to expect portion */
 img.wte{
-    padding: 20px !important;
+    padding: 10px !important;
 }
 div p.wte-text{
     font-size: 1em !important;
@@ -118,12 +118,11 @@ div p.wte-text{
 
 
 /* Speaker */
-.top-buffer{
-    margin-top:8vh; 
+.speaker-text{
+    margin-top: 3vh !important;
 }
-
-.bottom-buffer{
-    margin-top:8vh; 
+.top-buffer{
+    margin-top:3vh; 
 }
 
 /* FAQ */
@@ -152,4 +151,28 @@ div p.wte-text{
     text-align: justify;
     padding-left: 5%;
     text-align: 10px;
+}
+input[type=text],input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: transparent;
+    border: 1px solid #0094ff;          
+}
+
+#map{
+    width:100%;
+    height: 80vh;
+}
+#submit_button{
+    background-color: transparent;
+    border: 1px solid #0094ff;
+    color: white;
+}
+#submit_button:hover{
+    color: #0094ff;
+    border: 1px solid white
 }
