@@ -126,11 +126,17 @@ div#speaker-text{
 }
 
 /* Codespace */
+#codelogo{
+    margin-top: 27vh;
+}
+/* 
+#fullsection{
+    height: 99vh;
+} */
 #codecontent{
-    margin-top: 2em !important;
+    margin-top: 2em !important; 
     text-align: justify !important;
 }
-
 #codedates{
     margin-top: 0.66em !important;
     font-size: 30px !important;
@@ -138,6 +144,18 @@ div#speaker-text{
 #coderegister{
     margin-top: 1em !important;
     color:#fafafa !important;
+}
+#codefooter{
+    width: 100%; 
+    height: 0;
+    position: absolute;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    border-bottom: 100px solid #0094ff; 
+    border-left: 1500px solid transparent;
+    z-index: 1000;
+    float: right !important; 
+    opacity: 0.5;
 }
 
 /* FAQ */

@@ -22,7 +22,8 @@ function init() {
                 navigation: {
                     'textColor': '#000',
                     'bulletsColor': '#000',
-                    'position': 'right'
+                    'position': 'right',
+                    'tooltips':['Landing','What To Expect','Speakers','Codespace','Sponsors','Register','FAQ','Meet Us']
                 },
                 normalScrollElements: null,
                 normalScrollElementTouchThreshold: 5,
