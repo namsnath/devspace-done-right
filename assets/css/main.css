@@ -1,3 +1,7 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
 /*This is the page piling structure*/
 .section {
   height: 100vh;
@@ -135,6 +139,10 @@ h5{
   transition: all 1s ease;
 }
 
+#text-hide {
+    display: none;
+}
+
 #bottom-arrow:hover{
   margin-bottom: 25px;
   cursor: pointer;
@@ -173,7 +181,11 @@ h5{
   background-color: #18121E;
 }
 
-.section:nth-child(3),
+/*#hide-load {
+    display: none;
+}
+*/
+/*.section:nth-child(3),*/
 .section:nth-child(7),
 .section:nth-child(10) {
   background-color: #233237;
@@ -189,10 +201,10 @@ h5{
   background-color: #984B43;
 }
 
-.section:nth-child(5){
+/*.section:nth-child(5){
   background-color: #EAC67A;
 }
-
+*/
 a {
   color: #FFFAF2;
 }
@@ -277,8 +289,10 @@ img.wte{
   width: 15rem;
 }
 div p.wte-text{
-  font-size: 1em !important;
+  font-size: 1.2em !important;
   text-align: justify;
+  letter-spacing: 0.03em;
+  font-weight: 300 ;
 }
 
 
@@ -300,6 +314,8 @@ div p.wte-text{
   margin-top: 2em !important; 
   text-align: justify !important;
   font-size: 1.6rem;
+  letter-spacing: 0.08em;
+  font-weight: 300;
 }
 #codedates{
   margin-top: 0.66em !important;
@@ -353,7 +369,10 @@ div#speaker-text {
 .faq_content{
   text-align: justify;
   padding-left: 5%;
+  padding-top: 2%;
   text-align: 10px;
+  letter-spacing: 0.08em;
+  font-weight: 300;
 }
 
 
@@ -515,6 +534,7 @@ input[type=text],input[type=email], select, textarea {
 
 
 .justblue {
+    padding-bottom: 5%;
   color:#0094ff;
 }
 
@@ -753,4 +773,13 @@ button:hover span::before, button:hover span::after{
   .scale .price {
     color: #0094ff;
 }
+}
+
+.codespacecolor{
+    color: #0094ff;
+    margin-top: 5%;
+}
+.findus_content{
+    letter-spacing: 0.08em;
+    font-weight: 300;
 }

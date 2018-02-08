@@ -1,10 +1,10 @@
 
-setTimeout(init,0);
+setTimeout(init,2000);
 
 function init() {
 
     // $('.navbar').hide().fadeIn();
-
+    
 
     $(function() {
 
@@ -32,6 +32,7 @@ function init() {
         });
 
 
+        $('#text-hide').css("display","block");
 
         $.fn.pagepiling.moveSectionDown();
         setTimeout(deleteNode,200);
