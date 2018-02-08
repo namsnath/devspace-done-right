@@ -22,6 +22,11 @@ h5{
   font-weight: 300;
 }
 
+
+.transformHack {
+  transform : translateX(0vw) !important;
+}
+
 .extend-right{
   width: 20vw;
   height: 100vh;
@@ -29,9 +34,10 @@ h5{
   transform: translateX(-20vw);
   z-index: 99;
   transition: all 1s ease;
-  padding-top: 35vh;
+  padding-top: 20vh;
+  padding-left: 5rem;
   line-height: 7.5vh;
-  text-align: center;
+  text-align: left;
   color: #fff;
   background:#000;
 
@@ -48,7 +54,7 @@ h5{
   border: none;
   display: block;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 2rem;
   background-color: transparent;
   position: relative;
   transition: all 0.5s ease;
@@ -258,6 +264,12 @@ a.navbar-brand {
   font-weight: 300;
 }
 
+#landing_register{
+  position: absolute;
+  top:60%;
+  left: 45%;
+}
+
 /* what to expect portion */
 img.wte{
   padding: 10px !important;
@@ -454,6 +466,13 @@ input[type=text],input[type=email], select, textarea {
   #landing-logo{
     width: 80%;
   }
+  .extend-right span{
+    font-size: 4rem;
+  }
+  .extend-right{
+  width: 100vw;
+  transform: translateX(-100vw);
+  }
 
   h5{
     font-size: 1.3em;
@@ -463,9 +482,6 @@ input[type=text],input[type=email], select, textarea {
     padding: 20px;
   }
 
-  .extend-right{
-    transform: translateX(-100px);
-  }
 
   #map {
     display: none;
@@ -493,6 +509,7 @@ input[type=text],input[type=email], select, textarea {
 .codespacewrapper {
   background: url(../img/codespace_main_bg.png);
   background-position-x: center;
+  background-size: cover;
   height: 100%;
 }
 
@@ -712,14 +729,9 @@ button:hover span::before, button:hover span::after{
   margin: 1em 0 0;
 }
 .promo button {
-  padding: 0.5em 1.25em;
-  border: 2px;
-  background: transparent;
-  color: #fafafa;
-  cursor: pointer;
-  border: 1px #0094ff solid;
-  letter-spacing: 3px;
+  background: #333131 !important;
 }
+
 .promo button:hover {
   color: #0094ff;
 
@@ -728,7 +740,6 @@ button:hover span::before, button:hover span::after{
 .scale button {
   /*background: #0094ff;*/
   color: #0094ff;
-  border: 1.2px #0094ff solid;
 }
 .scale button:hover {
 : none;

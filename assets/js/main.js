@@ -108,11 +108,9 @@ $(document).ready(function(){
 		$(this).toggleClass('open');
     x++;
     if(x%2!=0){
-      $('.extend-right').css('transform','translateX(0vw)');
-
-    }
+      $('.extend-right').addClass('transformHack');    }
     else {
-      $('.extend-right').css('transform','translateX(-20vw)');
+      $('.extend-right').removeClass('transformHack');
     }
 
 	});
