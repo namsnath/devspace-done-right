@@ -15,13 +15,16 @@
 	  crossorigin="anonymous"></script>
 
 	<!-- For loader -->
-	<link rel="stylesheet" src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" src="assets/css/animate.min.css">
 
 	<link rel="stylesheet" href="assets/css/main.css">
+	<script type="text/javascript" src="assets/js/pagePiling.js">	</script>
 	<script src="assets/js/main.js"></script>
 </head>
 
 <body>
+
+
 
 	<!-- Loading Section -->
 	<div id="intro-section">
@@ -37,13 +40,28 @@
 				<a class="navbar-brand" href="#">
 					<img src="https://devspace.tech/images/oldlogo-white.png" class="navbar-logo">
 				</a>
+				<div id="nav-icon3">
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				</div>
 			</div>
 		</div>
 	</nav>
 
+	<div class="extend-right">
+		<span>Section 1</span>
+		<span>Section 1</span>
+		<span>Section 1</span>
+		<span>Section 1</span>
+		<span>Section 1</span>
+
+	</div>
+
 	<div id="pagepiling">
 
-		<!-- Landing -->
+		<!-- Section-1 -->
 		<div class="section">
 			<div class="container-fluid">
 				<div class="row">
@@ -51,19 +69,26 @@
 						<div class="Enter typed Js here"></div>
 					</div>
 					<div class="col-md-12 text-center line2">
-						here we area
+						<img class="animated bounce" id="landing-logo" src="D:\Documents\website\devspace-revamp\devspace-done-right\assets\img\devspace-landing.png" >
 					</div>
 					<div class="col-md-12 text-center line3">
-						16
-						<sup>th</sup> to 18
-						<sup>th</sup> March, VIT Vellore
+						<link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+						<h5>For the
+						  <span
+						     class="txt-rotate"
+						     data-period="2000"
+						     data-rotate='[ "Developers.", "Tech Enthusiasts.", "Designers", "Developers.", "Programmers." ]'></span>
+						</h5>
+					</div>
+					<div id="bottom-arrow" class=" animated bounceInUp">
+						<a href="#"><img src="assets/img/down-arrow.png" alt=""></a>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<!-- Section-2 -->
-		<div class="section">
+		<div class="section" id="section2">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
@@ -74,97 +99,119 @@
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<img src="http://via.placeholder.com/200x200" alt="Triangle circle square" class="center-block wte">
 						<h3>Reinventing Experiences</h3>
-						<p class="wte-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p class="wte-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua.</p>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<img src="http://via.placeholder.com/200x200" alt="screen" class="center-block wte">
 						<h3>Inspiring keynotes</h3>
-						<p class="wte-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p class="wte-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua.</p>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<img src="http://via.placeholder.com/200x200" alt="mike" class="center-block wte">
 						<h3>Learning Session</h3>
-						<p class="wte-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p class="wte-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua.</p>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<img src="http://via.placeholder.com/200x200" alt="codespace" class="center-block wte">
 						<h3>National Level Hackathon</h3>
-						<p class="wte-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p class="wte-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+							aliqua.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- Speakers -->
+		<!-- Section-3 -->
 		<div class="section">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="speaker-text">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 						<h1>Our Speakers</h1>
 					</div>
 				</div>
 				<div class="row top-buffer">
-					<div class="col-offset-lg-2 col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-6">
-						<img src="http://via.placeholder.com/340x220" alt="speaker1" class="center-block wte">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<img src="http://via.placeholder.com/200x200" alt="speaker1" class="center-block wte">
 					</div>
-					<div class="col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-6">
-						<img src="http://via.placeholder.com/340x220" alt="speaker1" class="center-block wte">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<img src="http://via.placeholder.com/200x200" alt="speaker1" class="center-block wte">
 					</div>
-					<div class="col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-6">
-						<img src="http://via.placeholder.com/340x220" alt="speaker1" class="center-block wte">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<img src="http://via.placeholder.com/200x200" alt="speaker1" class="center-block wte">
 					</div>
-					<div class="col-offset-lg-2 col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-6">
-						<img src="http://via.placeholder.com/340x220" alt="speaker1" class="center-block wte">
-					</div>
-					<div class="col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-6">
-						<img src="http://via.placeholder.com/340x220" alt="speaker1" class="center-block wte">
-					</div>
-					<div class="col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-6">
-						<img src="http://via.placeholder.com/340x220" alt="speaker1" class="center-block wte">
-					</div>
-				</div>
-				</div>
-		</div>
-
-		<!-- Codespace -->
-		<div class="section">
-			<div class="container-fluid" id="fullsection">
-				<div class="row">
-					<div class="col-offset-md-2 col-md-5 col-sm-12 col-xs-12">
-						<img src="assets/img/Codespace_logo.png" alt="Codespace" class="img-responsive" id="codelogo">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-offset-md-2 col-md-5 col-sm-12 col-xs-12" id="codecontent">
-						A national level hackathon aimed at bringing together India's most fastforward thinkers, innovators and implemtentors for the progress of technology and literacy. 24 hours deidicated to drive our nation further into digital revolution.
-					</div>
-				</div>
-				<div class="row text-center">
-					<div class="col-offset-md-1 col-md-5 col-sm-12 col-xs-12" id="codedates">
-						17<sup>th</sup> - 18<sup>th</sup> March
-					</div>
-				</div>
-				<div class="row text-center">
-					<div class="col-offset-md-4 col-md-5 col-sm-12 col-xs-12 text-center" id="coderegister">
-						<button type="button" class="btn btn-lg">Register</button>
+					<div class="row bottom-buffer">
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<img src="http://via.placeholder.com/200x200" alt="speaker1" class="center-block wte">
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<img src="http://via.placeholder.com/200x200" alt="speaker1" class="center-block wte">
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<img src="http://via.placeholder.com/200x200" alt="speaker1" class="center-block wte">
+						</div>
 					</div>
 				</div>
 			</div>
-			<div id="codefooter">
-				</div>
+		</div>
+		<!-- Section-4 -->
+		<div class="section">
+			Program schedule walla ..?
 		</div>
 
-		<!-- Sponsors -->
+		<!-- Section-5 -->
+		<div class="section">
+			<div class="row">
+				<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center">
+					Codespace
+				</div>
+			</div>
+		</div>
+
+		<!-- Section-6 -->
 		<div class="section">
 			Sponsors walla..?
 		</div>
 
-		<!-- Registration -->
+		<!-- Section-7 -->
 		<div class="section">
-			Registration walla
+			<div class="col-md-6 col-md-offset-3 text-center" id="intro-content">
+	     		<img src="assets/img/devspace-landing.png" class="brand-img row col-md-12">
+	 		</div>
+     	</div>
+
+     	<div class="col-md-12" id="page-2">
+
+     		<div class="p-2-line-1 row col-md-12 text-center">
+     			<h2>Tech enthusiasts</h2>
+     		</div>
+
+     		<div class="p-2-line-2 row col-md-12 text-center">
+     			<h3>here we are</h3>
+     		</div>
+
+     		<div class="p-2-line-3 row col-md-12 text-center">
+     			<h2>16th to 18th March, VIT Vellore</h2>
+     		</div>
+
+	 		<div id="arrow" class="row">
+	 			<span class="scroll-btn">
+  					<p>What is devspace?</p>
+
+					<span class="mouse">
+						<span>
+						</span>
+					</span>
+
+
+				</span>
+
+	 		</div>
 		</div>
 
-		<!-- FAQ -->
+		<!-- Section-8 -->
 		<div class="section">
 
 			<h1>FREQUENTLY ASKED QUESTIONS</h1>
@@ -172,41 +219,7 @@
 				<div class="row" id="faq_row">
 					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="faq_header">
-							What is Devspace?
-						</div>
-						<div class="faq_content">
-							It is a developers conference consisting of an expo, expert talks, workshops and a 24-hour-hackathon. It brings together tech enthusiasts, entrepreneurs, educators, research scholars and students from across India.
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
-						<div class="faq_header">
-							What are the talks like?
-						</div>
-						<div class="faq_content">
-							Experts in various technical and industrial fields share their experiences and knowledge with all the participants in the form of an interactive talk.
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
-						<div class="faq_header">
-							What is Codespace?
-						</div>
-						<div class="faq_content">
-							Codespace is 24-hour hackathon held on the last conference day on 18th March 2018. It has a set of themes and has been proved successful previously. 
-						</div>
-					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
-						<div class="faq_header">
-							How to sponsor Devspace?
-						</div>
-						<div class="faq_content">
-							To sponsor Devspace,<br> please contact :<br> +91-9420645590 <br>email : contact@devspace.tech.
-						</div>
-					</div>
-				</div>
-				<div class="row" id="faq_row1">
-					<div class="col-md-3 col-sm-6 col-xs-12">
-						<div class="faq_header">
-							How to register and what are the registration charges?
+							Frequently Asked Question
 						</div>
 						<div class="faq_content">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -215,60 +228,73 @@
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="faq_header">
-							What are the benefits of sponsoring Devspace?
+							Frequently Asked Question
 						</div>
 						<div class="faq_content">
-							Devspace offers a platform for direct interaction with all the participants at each of its destinations and for the display of various products and innovative projects. For more information please check out our brochure.
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="faq_header">
-							How will the participants benefit from Devspace?
+							Frequently Asked Question
 						</div>
 						<div class="faq_content">
-							 Each aspect of Devspace provides as an opportunity for knowledge and exposure gain. The interaction with various speakers, projects and products displayed at the expo, and Codespace serve as an inspiration to all the tech enthusiasts.
-							</div>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 col-xs-12">
 						<div class="faq_header">
-							What if I have another question?
+							Frequently Asked Question
 						</div>
 						<div class="faq_content">
-						Tweet us - @csivitu <br> 
-						Reach us via Facebook - fb/devspace
-						<br>
-						Mail us - contact@devspace.tech
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 						</div>
+					</div>
+				</div>
+				<div class="row" id="faq_row1">
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="faq_header">
+							Frequently Asked Question
+						</div>
+						<div class="faq_content">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="faq_header">
+							Frequently Asked Question
+						</div>
+						<div class="faq_content">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="faq_header">
+							Frequently Asked Question
+						</div>
+						<div class="faq_content">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12">
+						<div class="faq_header">
+							Frequently Asked Question
+						</div>
+						<div class="faq_content">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-	<!-- Venue and Contact -->
+	<!-- Section-9 -->
 	<div class="section">
-			<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-6 col-sm-12 col-xs-12">
-							<iframe id="map" src="https://snazzymaps.com/embed/45582"></iframe>
-						</div>
-						<div class="col-md-6 col-sm-12 col-xs-12">
-							<div class="row">
-								<div class="col-md-12">
-									<h2>HAVE A DOUBT?</h2> 
-								</div>
-								<div class="col-md-12">
-									<form action="/action_page.php">
-										<input type="text" id="name" name="name" placeholder="Name">
-										<input type="email" id="email" name="email" placeholder="Email">
-										<textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-										<button id="submit_button" type="button" class="btn btn-outline-dark btn-lg coderegister">Register</button>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+		Contact us and venue
 	</div>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.min.js" type="text/javascript"></script>
 </body>
 
