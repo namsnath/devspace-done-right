@@ -65,13 +65,12 @@ h5{
 
 
 .register{
-  margin: 25px;
+  margin-top: 20px !important;
   border: 1.5px solid blue;
   background: none;
   font-size: 1em;
-  font-family:monospace;
   font-weight: lighter;
-  padding: 5px 20px 5px 20px;
+  padding: 7px 23px 7px 23px;
   outline: none;
  cursor: pointer;
  font-size: 20px;
@@ -81,16 +80,27 @@ h5{
  -moz-transition: all 0.5s ease;
  -o-transition: all 0.5s ease;
  -ms-transition: all 0.5s ease;
+transform: scale(0.85);
+}
 
+.register-top{
+  background: rgba();
+  font-size: 1em;
+  font-weight: lighter;
+  padding: 5px 20px 5px 20px;
+ cursor: pointer;
+ font-size: 20px;
+ transition: all 0.5s ease;
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
+color: #000;
 }
 
 .register:hover{
   border-color: red;
-  animation: shakeThatBooty 0.3s linear 1;
-  -webkit-animation: shakeThatBooty 0.3s linear 1;
-  -moz-animation: shakeThatBooty 0.3s linear 1;
-  -o-animation: shakeThatBooty 0.3s linear 1;
-  -ms-animation: shakeThatBooty 0.3s linear 1;
+
 }
 
 @keyframes shakeThatBooty {
@@ -149,6 +159,8 @@ h5{
   color: #fff;
 }
 
+
+
 .insider {
   background-color: #fff;
   width: 100%;
@@ -162,7 +174,7 @@ h5{
   -ms-transform: rotateZ(-45deg);
 }
 
-.extend-right span:hover .insider {
+.extend-right span:hover .insider{
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -172,7 +184,7 @@ h5{
 }
 
 .section:nth-child(1) {
-    background-color: #000;
+    background-image: url("D:\\Documents\\website\\devspace-revamp\\devspace-done-right\\assets\\img\\main_bg.jpg"); //shit doesnt work with relative path
 }
 
 .section:nth-child(2),
@@ -228,7 +240,7 @@ a:hover {
     background: #000 !important;
 }
 #navbar-logo {
-    width: 25%;
+  margin-top: -30px !important;
 }
 
 .navbar-inverse {
@@ -396,6 +408,11 @@ div p.wte-text{
   background-image: url('../img/main_bg.jpg');
 }
 
+.text-center{
+  transform: translateX(10px);
+}
+
+
 @media only screen and (max-width: 900px){
     #landing-logo{
       width: 80%;
@@ -410,6 +427,10 @@ div p.wte-text{
     }
 
     .extend-right{
-      transform: translateX(-100px);
+      width: 100vw;
+      transform: translateX(-100vw);
+
     }
+
+
 }
