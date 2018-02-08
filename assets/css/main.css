@@ -20,8 +20,8 @@ body{
 
 h5{
   font-family: 'Segoe UI Light';
-  margin-top: 20px;
-  font-size: 1.em;
+  margin-top: 50px;
+  font-size: 1.5em;
 }
 
 .extend-right{
@@ -72,7 +72,49 @@ h5{
   font-family:monospace;
   font-weight: lighter;
   padding: 5px 20px 5px 20px;
+  outline: none;
+ cursor: pointer;
+ font-size: 20px;
+ border: 2px solid blue;
+ transition: all 0.5s ease;
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
 
+}
+
+.register:hover{
+  border-color: red;
+  animation: shakeThatBooty 0.3s linear 1;
+  -webkit-animation: shakeThatBooty 0.3s linear 1;
+  -moz-animation: shakeThatBooty 0.3s linear 1;
+  -o-animation: shakeThatBooty 0.3s linear 1;
+  -ms-animation: shakeThatBooty 0.3s linear 1;
+}
+
+@keyframes shakeThatBooty {
+  33% {
+    transform: rotateZ(10deg);
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    -o-transform: rotateZ(10deg);
+    -ms-transform: rotateZ(10deg);
+  }
+  67% {
+    transform: rotateZ(-10deg);
+    -webkit-transform: rotateZ(-10deg);
+    -moz-transform: rotateZ(-10deg);
+    -o-transform: rotateZ(-10deg);
+    -ms-transform: rotateZ(-10deg);
+  }
+  100% {
+    transform: rotateZ(10deg);
+    -webkit-transform: rotateZ(10deg);
+    -moz-transform: rotateZ(10deg);
+    -o-transform: rotateZ(10deg);
+    -ms-transform: rotateZ(10deg);
+  }
 }
 
 #bottom-arrow, #bottom-arrow img{
@@ -113,11 +155,11 @@ h5{
   height: 20px;
   position: absolute;
   left: -135px;
-  transform: rotateZ(45deg);
-  -webkit-transform: rotateZ(45deg);
-  -moz-transform: rotateZ(45deg);
-  -o-transform: rotateZ(45deg);
-  -ms-transform: rotateZ(45deg);
+  transform: rotateZ(-45deg);
+  -webkit-transform: rotateZ(-45deg);
+  -moz-transform: rotateZ(-45deg);
+  -o-transform: rotateZ(-45deg);
+  -ms-transform: rotateZ(-45deg);
 }
 
 .extend-right span:hover .insider {
@@ -348,6 +390,10 @@ div p.wte-text{
   top: 9px;
   width: 0%;
   left: 50%;
+}
+
+.registerr{
+  background-image: url('../img/main_bg.jpg');
 }
 
 @media only screen and (max-width: 900px){
