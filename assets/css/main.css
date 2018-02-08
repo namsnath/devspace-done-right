@@ -4,6 +4,7 @@
   width: 100vw;
   text-align: center;
   color: #FFFAF2; 
+
 }
 
 
@@ -137,6 +138,8 @@ h5{
   float:right !important;
   margin-top: -4rem;
   margin-right: 1.8rem;
+  height: 100% !important;
+  width: auto !important;
 }
 
 .extend-right span:hover{
