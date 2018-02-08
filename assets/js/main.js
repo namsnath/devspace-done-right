@@ -1,10 +1,10 @@
 
-setTimeout(init,2000);
+setTimeout(init,0);
 
 function init() {
 
     // $('.navbar').hide().fadeIn();
-    
+
 
     $(function() {
 
