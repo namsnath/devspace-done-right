@@ -1,9 +1,9 @@
 /*This is the page piling structure*/
 .section {
-    height: 100vh;
-    width: 100vw;
-    text-align: center;
-    color: #FFFAF2;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  color: #FFFAF2; 
 }
 
 
@@ -17,7 +17,6 @@ body{
 
 h5{
   font-family: 'Lato' !important; /* Segoe UI Light is only on Windows */
-  margin-top: 50px;
   font-size: 1.4em;
   font-weight: 300;
 }
@@ -72,14 +71,14 @@ h5{
   font-weight: lighter;
   padding: 5px 20px 5px 20px;
   outline: none;
- cursor: pointer;
- font-size: 20px;
- border: 2px solid blue;
- transition: all 0.5s ease;
- -webkit-transition: all 0.5s ease;
- -moz-transition: all 0.5s ease;
- -o-transition: all 0.5s ease;
- -ms-transition: all 0.5s ease;
+  cursor: pointer;
+  font-size: 20px;
+  border: 2px solid blue;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
 
 }
 
@@ -157,85 +156,85 @@ h5{
 }
 
 .section:nth-child(1) {
-    background-color: #000;
+  background-color: #000;
 }
 
-.section:nth-child(2),
+/*.section:nth-child(2),*/
 .section:nth-child(6) {
-    background-color: #18121E;
+  background-color: #18121E;
 }
 
 .section:nth-child(3),
 .section:nth-child(7),
 .section:nth-child(10) {
-    background-color: #233237;
+  background-color: #233237;
 }
 
 .section:nth-child(4),
-.section:nth-child(8)
- {
-    background-color: #984B43;
+/*.section:nth-child(8)*/
+{
+  background-color: #984B43;
 }
 .section:nth-child(9),
 .section:nth-child(11) {
-    background-color: #984B43;
+  background-color: #984B43;
 }
 
 .section:nth-child(5){
-    background-color: #EAC67A;
+  background-color: #EAC67A;
 }
 
 a {
-    color: #FFFAF2;
+  color: #FFFAF2;
 }
 
 a:hover {
-    color: #FFFAF2;
-    text-decoration: none;
+  color: #FFFAF2;
+  text-decoration: none;
 }
 
 /*This is for navbar*/
 
 .navbar {
-    margin: 0;
-    background-color: #2a2a2a !important;
-    display: none;
+  margin: 0;
+  background-color: #2a2a2a !important;
+  display: none;
 }
 .navbar.navbar-fixed-top {
-    margin: 0;
-    width: 100vw;
-    background: #000 !important;
+  margin: 0;
+  width: 100vw;
+  background: #000 !important;
 }
 .navbar-header {
-    height: 7vh !important;
-    width: 100vw;
+  height: 7vh !important;
+  width: 100vw;
 
-    background: #000 !important;
+  background: #000 !important;
 }
 #navbar-logo {
-    width: 25%;
+  width: 25%;
 }
 
 .navbar-inverse {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 a.navbar-brand {
-    padding: 10px;
-    height: 100%;
-    float: right;
+  padding: 10px;
+  height: 100%;
+  float: right;
 }
 
 
 /*loader*/
 #intro-section {
-    height: 100vh;
-    background-color: black !important;
-    padding: 0;
+  height: 100vh;
+  background-color: black !important;
+  padding: 0;
 }
 .brand-img {
-    width: 100% !important;
-    height: auto;
-    margin-top: 40vh;
+  width: 100% !important;
+  height: auto;
+  margin-top: 40vh;
 }
 /* landing */
 .line1{
@@ -245,127 +244,127 @@ a.navbar-brand {
 }
 .line2{
 	position: absolute;
-  top:40%;
-	font-size: 16px !important;
-	font-weight: 300;
+  top:45%;
+  font-size: 16px !important;
+  font-weight: 300;
 }
 .line3{
 	position: absolute;
-  top:55%;
-	font-size: 24px !important;
-	font-weight: 300;
+  top:50%;
+  font-size: 24px !important;
+  font-weight: 300;
 }
 
 /* what to expect portion */
 img.wte{
-    padding: 10px !important;
+  padding: 10px !important;
+  height: 15rem;
+  width: 15rem;
 }
 div p.wte-text{
-    font-size: 1em !important;
-    text-align: justify;
+  font-size: 1em !important;
+  text-align: justify;
 }
 
 
 /* Speaker */
 .top-buffer{
-    margin-top:3vh;
+  margin-top:3vh;
 }
 
 .bottom-buffer{
-    margin-top:8vh;
+  margin-top:8vh;
 }
 
 
 /* Codespace */
 #codelogo{
-    margin-top: 27vh;
+  margin-top: 27vh;
 }
-/* 
-#fullsection{
-    height: 99vh;
-} */
 #codecontent{
-    margin-top: 2em !important; 
-    text-align: justify !important;
+  margin-top: 2em !important; 
+  text-align: justify !important;
+  font-size: 1.6rem;
 }
 #codedates{
-    margin-top: 0.66em !important;
-    font-size: 30px !important;
+  margin-top: 0.66em !important;
+  font-size: 30px !important;
+  text-align: left;
 }
 #coderegister{
-    margin-top: 1em !important;
-    color:#fafafa !important;
+  margin-top: 1em !important;
+  color:#fafafa !important;
 }
 #codefooter{
-    width: 100%; 
-    height: 0;
-    position: absolute;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    border-bottom: 100px solid #0094ff; 
-    border-left: 1500px solid transparent;
-    z-index: 1000;
-    float: right !important; 
-    opacity: 0.5;
+  width: 100%; 
+  height: 0;
+  position: absolute;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  border-bottom: 100px solid #0094ff; 
+  border-left: 1500px solid transparent;
+  z-index: 1000;
+  float: right !important; 
+  opacity: 0.5;
 }
 
 div#speaker-text {
-    margin-top: 4vh !important;
+  margin-top: 4vh !important;
 }
 
 
 /* FAQ */
 #faq_container
 {
-    width: 100%;
-    height: 70%;
+  width: 100%;
+  height: 70%;
 }
 #faq_row
 {
-    padding: 7%;
-    padding-top: 4%;
-    padding-bottom: 2% !important;
+  padding: 7%;
+  padding-top: 4%;
+  padding-bottom: 2% !important;
 }
 #faq_row1
 {
-    padding: 7%;
-    padding-top: 2% !important;
+  padding: 7%;
+  padding-top: 2% !important;
 }
 .faq_header{
-    text-align: left;
-    color: blue;
-    font-size: 20px;
+  text-align: left;
+  color: #0094ff;
+  font-size: 20px;
 }
 .faq_content{
-    text-align: justify;
-    padding-left: 5%;
-    text-align: 10px;
+  text-align: justify;
+  padding-left: 5%;
+  text-align: 10px;
 }
 
 
 input[type=text],input[type=email], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid white;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    background-color: transparent;
-    border: 1px solid #0094ff;          
+  width: 100%;
+  padding: 12px;
+  border: 1px solid white;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: transparent;
+  border: 1px solid #0094ff;          
 }
 
 #map{
-    width:100%;
-    height: 80vh;
+  width:100%;
+  height: 80vh;
 }
 #submit_button{
-    background-color: transparent;
-    border: 1px solid #0094ff;
-    color: white;
+  background-color: transparent;
+  border: 1px solid #0094ff;
+  color: white;
 }
 #submit_button:hover{
-    color: #0094ff;
-    border: 1px solid white
+  color: #0094ff;
+  border: 1px solid white
 }
 
 
@@ -449,40 +448,198 @@ input[type=text],input[type=email], select, textarea {
 }
 
 @media only screen and (max-width: 900px){
-    #landing-logo{
-      width: 80%;
-    }
+  #landing-logo{
+    width: 80%;
+  }
 
-    h5{
-      font-size: 1.3em;
-    }
+  h5{
+    font-size: 1.3em;
+  }
 
-    a.navbar-brand {
-        padding: 20px;
-    }
+  a.navbar-brand {
+    padding: 20px;
+  }
 
-    .extend-right{
-      transform: translateX(-100px);
-    }
+  .extend-right{
+    transform: translateX(-100px);
+  }
+
+  #map {
+    display: none;
+  }
+  #findinfo {
+    margin-left:unset !important;
+  }
+  #findus{
+    padding-left: 3em !important;
+  }
 
 }
 
 
 
 /* PALASH */
-.wrapper {
-    background-color: hsla(0,0%,100%,0.05);
-    background-blend-mode: overlay;
-    background-repeat: no-repeat;
-    background: url(../img/main_bg.jpg);
-    background-size:cover;
-    height: 100%;
+.audiback {
+  background-color: hsla(0,0%,100%,0.05);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background: url(../img/main_bg.jpg);
+  background-size:cover;
+  height: 100%;
 }
-
 .codespacewrapper {
   background: url(../img/codespace_main_bg.png);
+  background-position-x: center;
+  height: 100%;
+}
+
+
+.justblue {
+  color:#0094ff;
 }
 
 .padman {
   padding :3rem 5rem;
+}
+
+
+
+#sectionfind {
+  text-align: left;
+  padding-top: 8rem;
+}
+
+#map {
+  width: 46%;
+  float: left;
+}
+#findus {
+  border-radius: 0.6em;
+  width: 95%;
+  padding-left: 5em;
+}
+#findinfo {
+ height: 60vh;
+ padding: 1em;
+ padding-top: 0;
+ margin-left: 50%;
+ position: relative;
+}
+
+#findinfo a{
+  text-decoration: underline;
+}
+
+
+
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+ul.icons li {
+  display: inline-block;
+  padding: 0 0.75em 0 0;
+}
+
+ul.icons li:last-child {
+  padding-right: 0;
+}
+
+ul.icons li a {
+  border-radius: 100%;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  display: inline-block;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  width: 3.5rem;
+  text-decoration: none !important;
+}
+
+ul.icons li a:hover {
+  color: #0094ff;
+  box-shadow: inset 0 0 0 1px #0094ff;
+}
+
+ul.icons li a:active {
+  background-color: rgba(255, 255, 255, 0.175);
+}
+
+
+button{
+  display: inline-block;
+  position: relative;
+  padding: 0.8rem;
+  padding-right: 3rem;
+  padding-left: 3rem; 
+  color: #dedede;
+  border:1px solid #0094ff;
+  background-color: hsla(0,0%,100%,0.04);
+  font-size: 1.6rem;
+  cursor: pointer;
+  margin: 10px 10px;
+}
+
+button span{
+  color: #dedede;
+}
+
+button:hover{
+   border: 1px solid transparent; 
+}
+
+button::before, button::after{
+  content:"";
+  width: 0;
+  height: 1px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+
+button span::before, span::after{
+  content:"";
+  width:1px;
+  height:0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: #fff;
+}
+button:hover::before, button:hover::after{
+  width: 100%;
+}
+button:hover span::before, button:hover span::after{
+  height: 100%;
+}
+
+.btn-animate::before, .btn-animate::after{
+  transition-delay: 0s;
+}
+.btn-animate span::before, .btn-animate span::after{
+  transition-delay: 0.2s;
+}
+.btn-animate::before{
+  right: 0;
+  top: 0;
+}
+.btn-animate::after{
+  left: 0;
+  bottom: 0;
+}
+.btn-animate span::before{
+  left: 0;
+  top: 0;
+}
+.btn-animate span::after{
+  right: 0;
+  bottom: 0;
+}
+.btn-animate:hover::before, .btn-animate:hover::after{
+  transition-delay: 0.2s;
+}
+.btn-animate:hover span::before, .btn-animate:hover span::after{
+  transition-delay: 0s;
 }

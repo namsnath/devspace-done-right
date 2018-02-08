@@ -120,4 +120,8 @@ $(document).ready(function(){
   $("#bottom-arrow").click(function(){
     $.fn.pagepiling.moveSectionDown();
   });
+
+  $('#landing_register').click(function(){
+    $.fn.pagepiling.moveTo(6);
+  });
 });

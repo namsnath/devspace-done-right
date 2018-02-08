@@ -16,7 +16,7 @@
 	  crossorigin="anonymous"></script>
 	<!-- For loader -->
 	<link rel="stylesheet" src="assets/css/animate.min.css">
-
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 	<script type="text/javascript" src="assets/js/pagePiling.js">	</script>
 	<script src="assets/js/main.js"></script>
@@ -53,12 +53,14 @@
 	</nav>
 
 	<div class="extend-right">
-		<span class="active">Home</span>
-		<span>What to expect</span>
-		<span>Our Speakers</span>
-		<span>Register</span>
-		<span>FAQs</span>
-		<span>Contact Us</span>
+		<span class="active" onclick="$.fn.pagepiling.moveTo(1);">Home</span>
+		<span onclick="$.fn.pagepiling.moveTo(2);">What to expect</span>
+		<span onclick="$.fn.pagepiling.moveTo(3);">Our Speakers</span>
+		<span onclick="$.fn.pagepiling.moveTo(4);">Codespace</span>
+		<span onclick="$.fn.pagepiling.moveTo(5);">Our Sponsors</span>
+		<span onclick="$.fn.pagepiling.moveTo(6);">Register</span>
+		<span onclick="$.fn.pagepiling.moveTo(7);">FAQs</span>
+		<span onclick="$.fn.pagepiling.moveTo(8);">Contact Us</span>
 
 	</div>
 
@@ -66,14 +68,13 @@
 
 		<!-- Section-1 -->
 		<div class="section">
-			<div class="container-fluid wrapper">
+			<div class="container-fluid audiback">
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<div class="Enter typed Js here"></div>
 					</div>
 					<div class="col-md-12 text-center line2">
-						<img class="animated bounce" id="landing-logo"
-						src="assets/img/devspace-landing.png" >
+						<h5>16<sup>th</sup> to 18<sup>th</sup> March, VIT Vellore</h5>
 					</div>
 					<div class="col-md-12 text-center line3">
 						<link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
@@ -83,6 +84,7 @@
 						     data-period="2000"
 						     data-rotate='[ "Developers.", "Tech Enthusiasts.", "Designers", "Developers.", "Programmers." ]'></span>
 						</h5>
+						<button type="button" class="btn-animate" id="landing_register"><span>Register</span></button>
 					</div>
 					<div id="bottom-arrow" class=" animated bounceInUp">
 						<a href="#"><img src="assets/img/down-arrow.png" alt=""></a>
@@ -92,35 +94,35 @@
 		</div>
 
 		<!-- Section-2 -->
-		<div class="section" id="section2">
+		<div class="section audiback" id="section2">
 			<div class="container-fluid padman">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-						<h1>What to Expect</h1>
+						<h1 class="justblue bold">WHAT TO EXPECT</h1>
 					</div>
 				</div>
 				<div class="row top-buffer">
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<img src="http://via.placeholder.com/200x200" alt="Triangle circle square" class="center-block wte">
-						<h3>Reinventing Experiences</h3>
+						<img src="assets/img/browser.svg" alt="Triangle circle square" class="center-block wte">
+						<h3 class="justblue">Reinventing Experiences</h3>
 						<p class="wte-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 							aliqua.</p>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<img src="http://via.placeholder.com/200x200" alt="screen" class="center-block wte">
-						<h3>Inspiring keynotes</h3>
+						<img src="assets/img/keynote.svg" alt="screen" class="center-block wte">
+						<h3 class="justblue">Inspiring keynotes</h3>
 						<p class="wte-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 							aliqua.</p>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<img src="http://via.placeholder.com/200x200" alt="mike" class="center-block wte">
-						<h3>Learning Session</h3>
+						<img src="assets/img/mike.svg" alt="mike" class="center-block wte">
+						<h3 class="justblue">Learning Session</h3>
 						<p class="wte-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 							aliqua.</p>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<img src="http://via.placeholder.com/200x200" alt="codespace" class="center-block wte">
-						<h3>National Level Hackathon</h3>
+						<img src="assets/img/browser.svg" alt="codespace" class="center-block wte">
+						<h3 class="justblue">Hackathon</h3>
 						<p class="wte-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 							aliqua.</p>
 					</div>
@@ -129,31 +131,31 @@
 		</div>
 
 		<!-- Section-3 -->
-		<div class="section">
+		<div class="section audiback">
 			<div class="container-fluid padman">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="speaker-text">
-						<h1>Our Speakers</h1>
+						<h1 class="justblue bold">OUR SPEAKERS</h1>
 					</div>
 				</div>
 				<div class="row top-buffer">
-					<div class="col-offset-lg-2 col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-6">
-						<img src="http://via.placeholder.com/340x220" alt="speaker1" class="center-block wte">
+					<div class="col-offset-lg-2 col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-12">
+						<img src="http://via.placeholder.com/220x220" alt="speaker1" class="center-block wte">
 					</div>
-					<div class="col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-6">
-						<img src="http://via.placeholder.com/340x220" alt="speaker1" class="center-block wte">
+					<div class="col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-12">
+						<img src="http://via.placeholder.com/220x220" alt="speaker1" class="center-block wte">
 					</div>
-					<div class="col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-6">
-						<img src="http://via.placeholder.com/340x220" alt="speaker1" class="center-block wte">
+					<div class="col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-12">
+						<img src="http://via.placeholder.com/220x220" alt="speaker1" class="center-block wte">
 					</div>
-					<div class="col-offset-lg-2 col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-6">
-						<img src="http://via.placeholder.com/340x220" alt="speaker1" class="center-block wte">
+					<div class="col-offset-lg-2 col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-12">
+						<img src="http://via.placeholder.com/220x220" alt="speaker1" class="center-block wte">
 					</div>
-					<div class="col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-6">
-						<img src="http://via.placeholder.com/340x220" alt="speaker1" class="center-block wte">
+					<div class="col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-12">
+						<img src="http://via.placeholder.com/220x220" alt="speaker1" class="center-block wte">
 					</div>
-					<div class="col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-6">
-						<img src="http://via.placeholder.com/340x220" alt="speaker1" class="center-block wte">
+					<div class="col-lg-4 col-offset-md-2 col-md-4 col-sm-6 col-xs-12">
+						<img src="http://via.placeholder.com/220x220" alt="speaker1" class="center-block wte">
 					</div>
 				</div>
 				</div>
@@ -162,6 +164,7 @@
 
 		<!-- Codespace -->
 		<div class="section">
+			<!--<video id="my-video" autoplay loop src="https://codespace.csivit.com/media/cs0.mp4"></video>-->
 			<div class="container-fluid padman wrapper codespacewrapper" id="fullsection">
 				<div class="row">
 					<div class="col-offset-md-2 col-md-5 col-sm-12 col-xs-12">
@@ -173,19 +176,13 @@
 						A national level hackathon aimed at bringing together India's most fastforward thinkers, innovators and implemtentors for the progress of technology and literacy. 24 hours deidicated to drive our nation further into digital revolution.
 					</div>
 				</div>
-				<div class="row text-center">
+				<div class="row">
 					<div class="col-offset-md-1 col-md-5 col-sm-12 col-xs-12" id="codedates">
 						17<sup>th</sup> - 18<sup>th</sup> March
 					</div>
 				</div>
-				<div class="row text-center">
-					<div class="col-offset-md-4 col-md-5 col-sm-12 col-xs-12 text-center" id="coderegister">
-						<button type="button" class="btn btn-lg">Register</button>
-					</div>
-				</div>
+			
 			</div>
-			<div id="codefooter">
-				</div>
 		</div>
 
 
@@ -195,25 +192,11 @@
 		</div>
 
 		<!-- Section-7 -->
-		<div class="section registerr">
+		<div class="section audiback registerr">
 
 			<div class="col-md-12" id="page-2">
 
-     		<div class="p-2-line-1 row col-md-12 text-center">
-     			<h2>Tech enthusiasts</h2>
-     		</div>
-
-     		<div class="p-2-line-2 row col-md-12 text-center">
-     			<h3>here we are</h3>
-     		</div>
-
-     		<div class="p-2-line-3 row col-md-12 text-center">
-     			<h2>16th to 18th March, VIT Vellore</h2>
-     		</div>
-
-				<div class="p-2-line-3 row col-md-12 text-center">
-     			<button type="button" name="button" class="register">Register</button>
-     		</div>
+     		<h2>Register Section</h2>
 
 
 
@@ -223,12 +206,12 @@
 
 
 		<!-- Section-8 -->
-		<div class="section">
+		<div class="section audiback">
 
 			<h1>FREQUENTLY ASKED QUESTIONS</h1>
 			<div class="container" id="faq_container">
 				<div class="row" id="faq_row">
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-md-3 col-sm-12 col-xs-12">
 						<div class="faq_header">
 							Frequently Asked Question
 						</div>
@@ -237,7 +220,7 @@
 							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-md-3 col-sm-12 col-xs-12">
 						<div class="faq_header">
 							Frequently Asked Question
 						</div>
@@ -246,7 +229,7 @@
 							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-md-3 col-sm-12 col-xs-12">
 						<div class="faq_header">
 							Frequently Asked Question
 						</div>
@@ -255,7 +238,7 @@
 							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-md-3 col-sm-12 col-xs-12">
 						<div class="faq_header">
 							Frequently Asked Question
 						</div>
@@ -266,7 +249,7 @@
 					</div>
 				</div>
 				<div class="row" id="faq_row1">
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-md-3 col-sm-12 col-xs-12">
 						<div class="faq_header">
 							Frequently Asked Question
 						</div>
@@ -275,7 +258,7 @@
 							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-md-3 col-sm-12 col-xs-12">
 						<div class="faq_header">
 							Frequently Asked Question
 						</div>
@@ -283,14 +266,14 @@
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-md-3 col-sm-12 col-xs-12">
 						<div class="faq_header">
 							Frequently Asked Question
 						</div>
 						<div class="faq_content">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
 					</div>
-					<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="col-md-3 col-sm-12 col-xs-12">
 						<div class="faq_header">
 							Frequently Asked Question
 						</div>
@@ -302,9 +285,32 @@
 		</div>
 
 	<!-- Section-9 -->
-	<div class="section">
-		Contact us and venue
-	</div>
+	<div class="section audiback" id="sectionfind">
+    
+    <div id="findus">
+        <h2>Find Us</h2>
+        <div id="map">
+            <iframe src="https://snazzymaps.com/embed/39214" width="100%" height="600px" style="border-radius:0.4em 0 0 0.4em;border:0px solid #01030e;height:60vh;">
+                
+            </iframe>
+        </div>
+        <div id="findinfo">
+            <div id="aboutcsivit">
+                <h3 class="codespacecolor">About CSIVIT</h3>
+                <p>Computer Society of India- VIT Student Branch is composed of skilled designers, developers and tech enthusiasts working together to present a variety of solutions, services and products. To push technology forward, we organize several events, workshops and hackathons year in and out.</p></div>
+                <h3 class="codespacecolor">Contact</h3>
+                <h4>Email: <a href="mailto:contact@devspace.tech">contact@devspace.tech</a></h4>
+                <h4>Phone: <a href="tel:9420645590">+91-9420645590</a></h4>
+                <ul class="icons">
+                    <li><a href="https://Twitter.com/csivitu" class="fa fa-twitter"></a></li>
+                    <li><a href="https://Facebook.com/csivitu" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                    <li><a href="https://github.com/csivit/" class="fa fa-github"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.min.js" type="text/javascript"></script>
 </body>
