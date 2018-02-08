@@ -1,5 +1,5 @@
 
-setTimeout(init,2000);
+setTimeout(init,0);
 
 function init() {
 
@@ -115,6 +115,7 @@ $(document).ready(function(){
     x++;
     if(x%2!=0){
       $('.extend-right').css('transform','translateX(0vw)');
+
     }
     else {
       $('.extend-right').css('transform','translateX(-10vw)');
