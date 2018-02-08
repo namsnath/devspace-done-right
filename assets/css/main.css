@@ -28,7 +28,7 @@ h5{
   width: 10vw;
   height: 100vh;
   position: fixed;
-  transform: translateX(100vw);
+  transform: translateX(-10vw);
   z-index: 99;
   transition: all 1s ease;
   padding-top: 35vh;
@@ -46,6 +46,17 @@ h5{
   transition: all 0.25s ease;
 }
 
+.register{
+  margin: 25px;
+  border: 1.5px solid blue;
+  background: none;
+  font-size: 1em;
+  font-family:monospace;
+  font-weight: lighter;
+  padding: 5px 20px 5px 20px;
+
+}
+
 #bottom-arrow, #bottom-arrow img{
   color:white;
   position: absolute;
@@ -60,8 +71,14 @@ h5{
 }
 
 #bottom-arrow:hover{
-  margin-bottom: 5px;
+  margin-bottom: 25px;
   cursor: pointer;
+}
+
+#navbar-logo, #navbar-logo img{
+  float:right !important;
+  margin-top: -40px;
+  margin-right: 10px;
 }
 
 .extend-right span:hover{
@@ -125,9 +142,8 @@ a:hover {
 
     background: #000 !important;
 }
-.navbar-logo {
-    height: 100%;
-    width: auto;
+#navbar-logo {
+    width: 25%;
 }
 
 .navbar-inverse {
@@ -136,6 +152,7 @@ a:hover {
 a.navbar-brand {
     padding: 10px;
     height: 100%;
+    float: right;
 }
 @media only screen and (max-width: 768px) {
     a.navbar-brand {
@@ -218,9 +235,7 @@ div p.wte-text{
     text-align: 10px;
 }
 
-#test{
-  float: right;
-}
+
 
 #nav-icon3{
   width: 30px;
@@ -236,7 +251,6 @@ div p.wte-text{
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
-  float: right;
 }
 
 #nav-icon1 span, #nav-icon3 span, #nav-icon4 span {

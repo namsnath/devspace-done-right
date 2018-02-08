@@ -114,10 +114,10 @@ $(document).ready(function(){
 		$(this).toggleClass('open');
     x++;
     if(x%2!=0){
-      $('.extend-right').css('transform','translateX(90vw)');
+      $('.extend-right').css('transform','translateX(0vw)');
     }
     else {
-      $('.extend-right').css('transform','translateX(100vw)');
+      $('.extend-right').css('transform','translateX(-10vw)');
     }
 
 	});
