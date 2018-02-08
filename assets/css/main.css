@@ -240,7 +240,7 @@ a:hover {
     background: #000 !important;
 }
 #navbar-logo {
-  margin-top: -30px !important;
+  margin-top: -45px !important;
 }
 
 .navbar-inverse {
@@ -334,7 +334,7 @@ div p.wte-text{
   width: 30px;
   height: 22.5px;
   position: relative;
-  margin: 20px 40px 0px 0;
+  margin: 20px 100px 0px 10px;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -412,6 +412,14 @@ div p.wte-text{
   transform: translateX(10px);
 }
 
+
+#top-logo{
+  width:150px;
+  position: absolute;
+  margin-top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 @media only screen and (max-width: 900px){
     #landing-logo{
