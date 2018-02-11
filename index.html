@@ -28,7 +28,7 @@
 
 
 	<!-- Loading Section -->
-	<div id="intro-section">
+	<div id="intro-section" class="animated bounceOutUp">
 		<div class="col-md-6 col-md-offset-3 text-center" id="intro-content">
 			<img src="assets/img/devspace-landing.png" class="brand-img row col-md-12">
 		</div>
@@ -56,12 +56,10 @@
 	<div class="extend-right">
 		<span class="active" onclick="$.fn.pagepiling.moveTo(1);">Home</span>
 		<span onclick="$.fn.pagepiling.moveTo(2);">What to expect</span>
-		<span onclick="$.fn.pagepiling.moveTo(3);">Our Speakers</span>
-		<span onclick="$.fn.pagepiling.moveTo(4);">Codespace</span>
-		<span onclick="$.fn.pagepiling.moveTo(5);">Our Sponsors</span>
-		<span onclick="$.fn.pagepiling.moveTo(6);">Register</span>
-		<span onclick="$.fn.pagepiling.moveTo(7);">FAQs</span>
-		<span onclick="$.fn.pagepiling.moveTo(8);">Contact Us</span>
+		<span onclick="$.fn.pagepiling.moveTo(3);">Codespace</span>
+		<span onclick="$.fn.pagepiling.moveTo(4);">Register</span>
+		<span onclick="$.fn.pagepiling.moveTo(5);">FAQs</span>
+		<span onclick="$.fn.pagepiling.moveTo(6);">Contact Us</span>
 
 	</div>
 
@@ -86,7 +84,7 @@
 						     data-rotate='[ "Developers.", "Tech Enthusiasts.", "Designers", "Developers.", "Programmers." ]'></span>
 						</h5>
 					</div>
-					<button type="button" class="btn-animate" id="landing_register"><span>Register</span></button>
+					<button type="button" class="btn-animate" 	><span>Register</span></button>
 					<div id="bottom-arrow" class=" animated bounceInUp">
 						<a href="#"><img src="assets/img/down-arrow.png" alt=""></a>
 					</div>
@@ -103,27 +101,37 @@
 					</div>
 				</div>
 				<div class="row top-buffer">
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<img src="assets/img/browser.svg" alt="Triangle circle square" class="center-block wte">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="for-padding">
+						<img src="assets/img/triangle-circle-square.svg" alt="Triangle circle square" class="center-block wte">
 						<h3 class="justblue">Reinventing Experience</h3>
+						<div id="hide-mob">
 						<p class="wte-text">When opportunities walk to you, grab them…! A chance to see the functioning of industries, come and be a part of our startup expo.</p>
+						</div>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="for-padding">
 						<img src="assets/img/keynote.svg" alt="screen" class="center-block wte">
 						<h3 class="justblue">Inspiring keynotes</h3>
-						<p class="wte-text">The tale of success is probably the only one that’s heard.
-						Experience enthusiasm coupled with a surge of passion when you hear it from the achievers themselves.</p>
+						<div id="hide-mob">
+							<p class="wte-text">The tale of success is probably the only one that’s heard.
+							Experience enthusiasm coupled with a surge of passion when you hear it from the achievers themselves.</p>
+					
+						</div>	
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="for-padding">
 						<img src="assets/img/mike.svg" alt="mike" class="center-block wte">
 						<h3 class="justblue">Learning Sessions</h3>
-						<p class="wte-text">An investment in knowledge earns the highest dividends; come have a hands-on session in workshops that equip you for the future.</p>
+						<div id="hide-mob">					
+							<p class="wte-text">An investment in knowledge earns the highest dividends; come have a hands-on session in workshops that equip you for the future.</p>
+							
+						</div>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="for-padding">
 						<img src="assets/img/browser.svg" alt="codespace" class="center-block wte">
 						<h3 class="justblue">Hackathon</h3>
-						<p class="wte-text"> Our flagship event
-						CODESPACE 2k18, is back this year to test you on technologies of the future. Think you have the next idea that impacts the world? Time to bring it out of the closet.</p>
+						<div id="hide-mob">
+							<p class="wte-text"> Our flagship event
+								CODESPACE 2k18, is back this year to test you on technologies of the future. Think you have the next idea that impacts the world? Time to bring it out of the closet.</p>
+						</div>	
 					</div>
 				</div>
 			</div>
@@ -323,17 +331,18 @@
     <div id="findus">
         <h2 style="color:#0094ff">Find Us</h2>
         <div id="map">
-            <iframe src="https://snazzymaps.com/embed/39214" width="100%" height="600px" style="border-radius:0.4em 0 0 0.4em;border:0px solid #01030e;height:60vh;">
+            <iframe src="https://snazzymaps.com/embed/39214" width="100%" height="auto" style="border-radius:0.4em 0 0 0.4em;border:0px solid #01030e;height:60vh;">
 
             </iframe>
         </div>
         <div id="findinfo">
             <div id="aboutcsivit">
-                <h3 class="codespacecolor">About CSIVIT</h3>
+                <h3 class="codespacecolor">About Us</h3>
                 <p class="findus_content">Computer Society of India- VIT Student Branch is composed of skilled designers, developers and tech enthusiasts working together to present a variety of solutions, services and products. To push technology forward, we organize several events, workshops and hackathons year in and out.</p></div>
                 <h3 class="codespacecolor">Contact</h3>
                 <h4 class="findus_content">Email: <a href="mailto:contact@devspace.tech">contact@devspace.tech</a></h4>
-                <h4 class="findus_content0">Phone: <a href="tel:9420645590">+91-9420645590</a></h4>
+				<h4 class="findus_content0">Phone: <a href="tel:9420645590">+91-9420645590</a></h4>
+				<h4><span style="color: transparent">Phone: </span> <a href="tel:9971112298">+91-9971112298</a></h4>
                 <ul class="icons">
                     <li><a href="https://Twitter.com/csivitu" class="fa fa-twitter"></a></li>
                     <li><a href="https://Facebook.com/csivitu" class="fa fa-facebook"></a></li>

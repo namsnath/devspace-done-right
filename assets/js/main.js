@@ -1,13 +1,20 @@
 
-setTimeout(init,0);
-
+// $(window).on('load', function () {
+  
+//   init();
+  
+// });
+init();
 function init() {
+  
+
 
     // $('.navbar').hide().fadeIn();
 
-
     $(function() {
 
+      // if ( $(window).width() > 768 ) {
+  
             $('#pagepiling').pagepiling({
                 menu: null,
                 direction: 'vertical',
@@ -30,14 +37,20 @@ function init() {
                 afterLoad: function(anchorLink, index){},
                 afterRender: function(){},
         });
-
+      
+      
 
         $('#text-hide').css("display","block");
 
         $.fn.pagepiling.moveSectionDown();
         setTimeout(deleteNode,200);
         $('.navbar').css("display","block");
-
+      
+      // else {
+      //   $('#intro-section').css("display","none");    
+      //   $('#text-hide').css("display","block");
+      //   $('.navbar').css("display","block");
+      // }
     });
 }
 

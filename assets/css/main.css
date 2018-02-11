@@ -1,14 +1,15 @@
 *{
     font-family: 'Lato', sans-serif;
-}
+    font-weight: 300;
+  }
 
 /*This is the page piling structure*/
+
 .section {
   height: 100vh;
   width: 100vw;
   text-align: center;
   color: #FFFAF2;
-
 }
 
 
@@ -39,7 +40,7 @@ h5{
   z-index: 99;
   transition: all 1s ease;
   padding-top: 20vh;
-  padding-left: 5rem;
+  
   line-height: 7.5vh;
   text-align: left;
   color: #fff;
@@ -69,6 +70,8 @@ h5{
   border-color: #fff;
   overflow: hidden;
   color: #fff;
+
+  padding-left: 4rem;
 }
 .register_logos{
 
@@ -301,6 +304,9 @@ div p.wte-text{
   font-weight: 300 ;
 }
 
+#for-padding {
+  padding: 0 50px;
+}
 
 /* Speaker */
 .top-buffer{
@@ -315,6 +321,7 @@ div p.wte-text{
 /* Codespace */
 #codelogo{
   margin-top: 27vh;
+  margin-left: 10vh;  
 }
 #codecontent{
   margin-top: 2em !important;
@@ -322,12 +329,28 @@ div p.wte-text{
   font-size: 1.6rem;
   letter-spacing: 0.08em;
   font-weight: 300;
+  margin-left: 10vh;
 }
 #codedates{
   margin-top: 0.66em !important;
   font-size: 30px !important;
   text-align: left;
+  margin-left: 10vh;
 }
+
+@media only screen and (max-width: 900px){
+  #codelogo {
+    margin-left: 0;
+  }  
+  #codecontent {
+    margin-left: 0;
+  }
+  #codedates {
+    margin-left: 0;
+  }
+  
+}
+
 #coderegister{
   margin-top: 1em !important;
   color:#fafafa !important;
@@ -690,9 +713,11 @@ button:hover span::before, button:hover span::after{
   transition-delay: 0s;
 }
 /* Register */
+
 .promos {
   max-width: 1140px;
   margin: 0 auto;
+  overflow-y: visible;
 }
 
 .promo {
