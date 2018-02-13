@@ -12,6 +12,11 @@
   color: #FFFAF2;
 }
 
+#register_button {
+	position:absolute !important;
+        top:60%;
+        left:45%;
+}
 
 body{
   transition: all 1s ease;

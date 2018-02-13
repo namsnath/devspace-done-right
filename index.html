@@ -3,7 +3,7 @@
 
 <head>
 	<title>Devspace - A Developer Conference</title>
-	<link href="assets/css/jquery.pagepiling.css" rel="stylesheet" />
+	<link href="devassets/css/jquery.pagepiling.css" rel="stylesheet" />
 
 	<!-- Bootstrap -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
@@ -15,11 +15,11 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 	  crossorigin="anonymous"></script>
 	<!-- For loader -->
-	<link rel="stylesheet" src="assets/css/animate.min.css">
+	<link rel="stylesheet" src="devassets/css/animate.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/css/main.css">
-	<script type="text/javascript" src="assets/js/pagePiling.js">	</script>
-	<script src="assets/js/main.js"></script>
+	<link rel="stylesheet" href="devassets/css/main.css">
+	<script type="text/javascript" src="devassets/js/pagePiling.js">	</script>
+	<script src="devassets/js/main.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
 </head>
 
@@ -30,7 +30,7 @@
 	<!-- Loading Section -->
 	<div id="intro-section" class="animated bounceOutUp">
 		<div class="col-md-6 col-md-offset-3 text-center" id="intro-content">
-			<img src="assets/img/devspace-landing.png" class="brand-img row col-md-12">
+			<img src="devassets/img/devspace-landing.png" class="brand-img row col-md-12">
 		</div>
 	</div>
 
@@ -46,7 +46,7 @@
 				  <span></span>
 				</div>
 				<a class="navbar-brand" href="#">
-					<img src="https://devspace.tech/images/oldlogo-white.png" id="navbar-logo">
+					<img src="/devassets/img/oldlogo-white.png" id="navbar-logo">
 				</a>
 
 			</div>
@@ -84,9 +84,9 @@
 						     data-rotate='[ "Developers.", "Tech Enthusiasts.", "Designers", "Developers.", "Programmers." ]'></span>
 						</h5>
 					</div>
-					<button type="button" class="btn-animate" 	><span>Register</span></button>
+					<button type="button" class="btn-animate" onclick="$.fn.pagepiling.moveTo(4);" id="register_button"><span>Register</span></button>
 					<div id="bottom-arrow" class=" animated bounceInUp">
-						<a href="#"><img src="assets/img/down-arrow.png" alt=""></a>
+						<a href="#"><img src="devassets/img/down-arrow.png" alt=""></a>
 					</div>
 				</div>
 			</div>
@@ -102,14 +102,14 @@
 				</div>
 				<div class="row top-buffer">
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="for-padding">
-						<img src="assets/img/triangle-circle-square.svg" alt="Triangle circle square" class="center-block wte">
+						<img src="devassets/img/triangle-circle-square.svg" alt="Triangle circle square" class="center-block wte">
 						<h3 class="justblue">Reinventing Experience</h3>
 						<div id="hide-mob">
 						<p class="wte-text">When opportunities walk to you, grab them! A chance to see the functioning of industries, come and be a part of our startup expo.</p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="for-padding">
-						<img src="assets/img/keynote.svg" alt="screen" class="center-block wte">
+						<img src="devassets/img/keynote.svg" alt="screen" class="center-block wte">
 						<h3 class="justblue">Inspiring keynotes</h3>
 						<div id="hide-mob">
 							<p class="wte-text">The tale of success is probably the only one that is heard.
@@ -118,7 +118,7 @@
 						</div>	
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="for-padding">
-						<img src="assets/img/mike.svg" alt="mike" class="center-block wte">
+						<img src="devassets/img/mike.svg" alt="mike" class="center-block wte">
 						<h3 class="justblue">Learning Sessions</h3>
 						<div id="hide-mob">					
 							<p class="wte-text">An investment in knowledge earns the highest dividends; come have a hands-on session in workshops that equip you for the future.</p>
@@ -126,7 +126,7 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="for-padding">
-						<img src="assets/img/browser.svg" alt="codespace" class="center-block wte">
+						<img src="devassets/img/browser.svg" alt="codespace" class="center-block wte">
 						<h3 class="justblue">Hackathon</h3>
 						<div id="hide-mob">
 							<p class="wte-text"> Our flagship event
@@ -175,7 +175,7 @@
 			<div class="container-fluid padman wrapper codespacewrapper" id="fullsection">
 				<div class="row">
 					<div class="col-offset-md-2 col-md-5 col-sm-12 col-xs-12">
-						<img src="assets/img/Codespace_logo.png" alt="Codespace" class="img-responsive" id="codelogo">
+						<img src="devassets/img/Codespace_logo.png" alt="Codespace" class="img-responsive" id="codelogo">
 					</div>
 				</div>
 				<div class="row">
@@ -205,21 +205,21 @@
 				<div class="promos">
 					<div class="promo first">
 									<!-- <h4>Devspace</h4> -->
-									<img src="assets/img/devspace.svg" class="register_logos">
+									<img src="devassets/img/devspace.svg" class="register_logos">
 									<ul class="features">
 											<!-- <li class="brief">Talks , Workshops etc</li> -->
 											<li class="price">&#8377;200</span></li>
 											<li>Fun Competitions</li>
 											<li>Inspirational talks</li>
 											<li>Hands on training session</li>
-											<li class="buy"><button type="button" class="btn-animate" onclick="loadChoice(1)"><span>Register Now</span></button></li>
+											<li class="buy"><button type="button" class="btn-animate" onclick="document.location.href='/register?choice=1'"><span>Register Now</span></button></li>
 									</ul>
 							</div>
 
 
 				<div class="promo second">
 						<!-- <h4>24 Hour Hackathon</h4> -->
-						<img src="assets/img/codespace.svg" class="register_logos">
+						<img src="devassets/img/codespace.svg" class="register_logos">
 						<ul class="features">
 								<!-- <li class="brief">24 Hour Hackathon</li> -->
 								<li class="price">&#8377;100</li>
@@ -227,19 +227,19 @@
 								<li>Certificates and Internships</li>
 								<li>Goodie bags</li>
 								<li>T-Shirts</li>
-								<li class="buy"><button type="button" class="btn-animate" onclick="loadChoice(2)"><span>Register Now</span></button></li>
+								<li class="buy"><button type="button" class="btn-animate" onclick="document.location.href='/register?choice=2'"><span>Register Now</span></button></li>
 						</ul>
 				</div>
 				<div class="promo third scale">
 							<!-- <h4 >Devspace + Codespace</h4> -->
-							<img src="assets/img/both_plus.svg" class="register_logos">
+							<img src="devassets/img/both_plus.svg" class="register_logos">
 							<ul class="features">
 									<!-- <li class="brief">The Full Experience</li> -->
 									<li class="price">&#8377;300</li>
 									<li>Combined Experience</li>
 									<li>Goody bags, bands and T-shirts</li>
 									<li>Amazing Awards</li>
-									<li class="buy"><button type="button" class="btn-animate" onclick="loadChoice(3)"><span>Register Now</span></button></li>
+									<li class="buy"><button type="button" class="btn-animate" onclick="document.location.href='/register?choice=3'"><span>Register Now</span></button></li>
 							</ul>
 					</div>
 
