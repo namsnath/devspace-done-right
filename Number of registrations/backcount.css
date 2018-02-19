@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+body {
+  background-image: url("bg.png");
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+img{
+  margin-top: 6vh;
+  width: 50vw;
+}
+h2{
+  text-align: center;
+  color: #fafafa !important;
+}
+.regcounttable {
+  color: #0094ff;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.tabcontain {
+  margin-top: 2vw;
+  width: 50vw;
+  margin: 0px auto;
+}
+.asa th{
+  vertical-align: middle !important;
+  background-color: rgba(0,0,0,0.4) !important;
+}
+
+
+#note {
+  text-align: center;
+  margin-top: 2vh;
+  color: #0094ff;
+  visibility: hidden;
+}
+
+#clockdiv{
+  font-weight: 400 !important;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 20px;
+}
+
+#clockdiv > div{
+  padding: 9px;
+  background: rgba(0,0,0,0.7);
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding: 20px;
+  border-radius: 3px;
+  background: #0094ff;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+@media (max-width: 768px){
+  img{
+  margin-top: 6vh;
+  width: 80vw;
+  }
+  .tabcontain {
+  width: 90vw;
+  overflow-x: auto;
+  } 
+  #note{
+    visibility: visible;   
+  }
+}
+

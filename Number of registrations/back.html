@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RegCount</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="backcount.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div class="text-center">
+	<img src="devspace conference logo.png" class="mx-auto d-block">
+</div>
+<br>
+<h2>Registration Count</h2>
+<br>
+<div class="tabcontain">
+	<table class="table regcounttable">
+	  <thead class="thead-dark asa">
+	    <tr>
+	      <th>College</th>
+	      <th>Devspace + Codespace</th>
+	      <th>Codespace</th>
+	      <th>Devspace</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <th>VIT</th>
+	      <td id="DC">0</td>
+	      <td id="C">0</td>
+	      <td id="D">0</td>
+	    </tr>
+	    <tr>
+	      <th>Externals</th>
+	      <td id="eDC">0</td>
+	      <td id="eC">0</td>
+	      <td id="eD">0</td>
+	    </tr>
+	  </tbody>
+	</table>
+</div>
+<span id="note" class="mx-auto d-block">Scroll to view whole table.</span>
+<br>
+<div id="clockdiv" class="mx-auto d-block">
+  <div>
+    <span class="days"></span>
+    <div class="smalltext">Days</div>
+  </div>
+  <div>
+    <span class="hours"></span>
+    <div class="smalltext">Hours</div>
+  </div>
+  <div>
+    <span class="minutes"></span>
+    <div class="smalltext">Minutes</div>
+  </div>
+  <div>
+    <span class="seconds"></span>
+    <div class="smalltext">Seconds</div>
+  </div>
+</div>
+<script src="clock.js"></script>
+</body>
+</html>
