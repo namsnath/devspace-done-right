@@ -3,12 +3,12 @@
 <head>
 	<title>RegCount</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="backcount.css">
+	<link rel="stylesheet" type="text/css" href="/devassets/css/backcount.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
 <div class="text-center">
-	<img src="devspace conference logo.png" class="mx-auto d-block">
+	<img src="/devassets/img/devspace conference logo.png" class="mx-auto d-block">
 </div>
 <br>
 <h2>Registration Count</h2>
@@ -26,15 +26,15 @@
 	  <tbody>
 	    <tr>
 	      <th>VIT</th>
-	      <td id="DC">0</td>
-	      <td id="C">0</td>
-	      <td id="D">0</td>
+	      <td id="DC">{{ vit.both}}</td>
+	      <td id="C">{{ vit.codespace }}</td>
+	      <td id="D">{{ vit.devspace }}</td>
 	    </tr>
 	    <tr>
 	      <th>Externals</th>
-	      <td id="eDC">0</td>
-	      <td id="eC">0</td>
-	      <td id="eD">0</td>
+	      <td id="eDC">{{ ext.both }}</td>
+	      <td id="eC">{{ ext.codespace }}</td>
+	      <td id="eD">{{ ext.devspace }}</td>
 	    </tr>
 	  </tbody>
 	</table>
@@ -59,6 +59,6 @@
     <div class="smalltext">Seconds</div>
   </div>
 </div>
-<script src="clock.js"></script>
+<script src="/devassets/js/clock.js"></script>
 </body>
 </html>
