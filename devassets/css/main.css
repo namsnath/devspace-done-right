@@ -399,6 +399,7 @@ div#speaker-text {
   text-align: left;
   color: #0094ff;
   font-size: 20px;
+  font-weight:400;
 }
 .faq_content{
   text-align: justify;
@@ -558,6 +559,18 @@ input[type=text],input[type=email], select, textarea {
   background-size:cover;
   height: 100%;
 }
+.audidarkback {
+background-color: hsla(0,0%,100%,0.05);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background: url(../img/background-dark.jpg);
+  background-size:cover;
+  height: 100%;
+
+
+}
+
+
 .codespacewrapper {
   background: url(../img/codespace_main_bg.png);
   background-position-x: center;
@@ -590,6 +603,10 @@ input[type=text],input[type=email], select, textarea {
   border-radius: 0.6em;
   width: 95%;
   padding-left: 5em;
+}
+
+#findus a {
+  text-decoration:none;
 }
 #findinfo {
  height: 60vh;

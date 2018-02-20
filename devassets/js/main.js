@@ -1,4 +1,4 @@
-
+if(/Mobi/i.test(navigator.userAgent) || /Android/i.test(navigator.userAgent)){      window.location="https://m.devspace.tech";                                         }    
 $(window).on('load', function () {
   
   init();
@@ -27,7 +27,8 @@ function init() {
                 navigation: {
                     'textColor': '#000',
                     'bulletsColor': '#000',
-                    'position': 'right'
+                    'position': 'right',
+                    'tooltips': ['Home','What to expect','Codespace','Register','FAQ','Find Us']
                 },
                 sectionSelector: '.section',
                 animateAnchor: false,
