@@ -315,13 +315,21 @@ div p.wte-text{
 
 /* Speaker */
 .top-buffer{
-  margin-top:3vh;
+  margin-top:1vh;
 }
 
-.bottom-buffer{
-  margin-top:8vh;
+#testing{
+  padding : 1% 0%;
 }
 
+div#speaker-text {
+  margin-top: 4vh !important;
+}
+
+h1.justbluesp{
+  padding-bottom: 1% !important;
+  color:#0094ff;
+}
 
 /* Codespace */
 #codelogo{
@@ -373,9 +381,6 @@ div p.wte-text{
   opacity: 0.5;
 }
 
-div#speaker-text {
-  margin-top: 4vh !important;
-}
 
 
 /* FAQ */
@@ -580,7 +585,7 @@ background-color: hsla(0,0%,100%,0.05);
 
 
 .justblue {
-    padding-bottom: 5%;
+  padding-bottom: 5%;
   color:#0094ff;
 }
 
