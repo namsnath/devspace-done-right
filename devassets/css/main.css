@@ -326,6 +326,20 @@ div#speaker-text {
   margin-top: 4vh !important;
 }
 
+div.speakerimg{
+  position: relative;
+  transform-style: preserve-3d;
+  font-size: 30px;  
+}
+
+p.speakername{
+  position: absolute;
+  font-size: 28px;
+  bottom: 0.1em;
+  left: 0.1em;
+  transform: translateZ(30px);
+}
+
 h1.justbluesp{
   padding-bottom: 1% !important;
   color:#0094ff;
