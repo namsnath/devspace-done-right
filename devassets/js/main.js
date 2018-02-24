@@ -28,7 +28,7 @@ function init() {
                     'textColor': '#000',
                     'bulletsColor': '#000',
                     'position': 'right',
-                    'tooltips': ['Home','What to expect','Codespace','Register','FAQ','Find Us']
+                    'tooltips': ['Home','What to expect','Speakers','Codespace','Register','FAQ','Find Us']
                 },
                 sectionSelector: '.section',
                 animateAnchor: false,
@@ -138,3 +138,47 @@ $(document).ready(function(){
     $.fn.pagepiling.moveTo(6);
   });
 });
+
+function hitesh(){
+  document.getElementsByClassName("spoverlay")[0].style.display="block";
+  console.log("hi1");
+  event.stopImmediatePropagation();
+}
+
+function speakertwo(){
+  document.getElementsByClassName("spoverlay")[1].style.display="block";
+  console.log("hi2");
+  event.stopImmediatePropagation();
+}
+
+function speakerthree(){
+  document.getElementsByClassName("spoverlay")[2].style.display="block";
+  console.log("hi3");
+  event.stopImmediatePropagation();
+}
+
+function speakerfour(){
+  document.getElementsByClassName("spoverlay")[2].style.display="block";
+  console.log("hi3");
+  event.stopImmediatePropagation();
+}
+
+function speakerfive(){
+  document.getElementsByClassName("spoverlay")[4].style.display="block";
+  console.log("hi3");
+  event.stopImmediatePropagation();
+}
+
+function speakersix(){
+  document.getElementsByClassName("spoverlay")[4].style.display="block";
+  console.log("hi3");
+  event.stopImmediatePropagation();
+}
+
+
+function off(){
+  for(i=0;i<10;i++){
+    document.getElementsByClassName("spoverlay")[i].style.display="none";
+  }
+  console.log("bye");
+}

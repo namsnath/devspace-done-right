@@ -330,19 +330,46 @@ div.speakerimg{
   position: relative;
   transform-style: preserve-3d;
   font-size: 30px;  
+  text-align: center;
 }
 
 p.speakername{
   position: absolute;
   font-size: 28px;
+  text-align: center;
   bottom: 0.1em;
-  left: 0.1em;
+  left: 3em;
   transform: translateZ(30px);
 }
 
 h1.justbluesp{
   padding-bottom: 1% !important;
   color:#0094ff;
+}
+
+img.externallink{
+  width: 4%;
+  height: 4%;
+}
+
+.spoverlay {
+  position: fixed;
+  display: none; 
+  width: 100%; 
+  height: 100%;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8); 
+  z-index: 200;
+  cursor: pointer;
+}
+
+.overlaytext{
+margin-top: 30vh;
+padding: 4vh 4vh 4vh 0vh;
+background-color: rgba(0,0,0,1);
 }
 
 /* Codespace */
