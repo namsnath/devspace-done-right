@@ -298,9 +298,9 @@ a.navbar-brand {
 
 /* what to expect portion */
 img.wte{
-  padding: 10px !important;
-  height: 15rem;
-  width: 15rem;
+  padding: 8px !important;
+  height: 17rem;
+  width: 17rem;
 }
 div p.wte-text{
   font-size: 1.2em !important;
@@ -310,7 +310,7 @@ div p.wte-text{
 }
 
 #for-padding {
-  padding: 0 50px;
+  padding: 0 15px;
 }
 
 /* Speaker */
@@ -395,7 +395,16 @@ h1.justbluesp{
   opacity: 0.5;
 }
 
+/* sponsors wala */
 
+#Sponsors{
+  background-color: black !important;
+  width: 100%;
+}
+
+#testing_sponsors{
+  padding: 4.0% 0.5%;
+}
 
 /* FAQ */
 #faq_container
