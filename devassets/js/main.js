@@ -28,7 +28,7 @@ function init() {
                     'textColor': '#000',
                     'bulletsColor': '#000',
                     'position': 'right',
-                    'tooltips': ['Home','What to expect','Speakers','Codespace','Register','FAQ','Find Us']
+                    'tooltips': ['Home','What to expect','Speakers','Codespace','Register','Our Collabarators','FAQ','Find Us']
                 },
                 sectionSelector: '.section',
                 animateAnchor: false,
@@ -39,7 +39,7 @@ function init() {
                 afterRender: function(){},
         });
       
-      
+      x
 
         $('#text-hide').css("display","block");
 
@@ -159,19 +159,19 @@ function speakerthree(){
 
 function speakerfour(){
   document.getElementsByClassName("spoverlay")[2].style.display="block";
-  console.log("hi3");
+  console.log("hi4");
   event.stopImmediatePropagation();
 }
 
 function speakerfive(){
   document.getElementsByClassName("spoverlay")[4].style.display="block";
-  console.log("hi3");
+  console.log("hi5");
   event.stopImmediatePropagation();
 }
 
 function speakersix(){
   document.getElementsByClassName("spoverlay")[4].style.display="block";
-  console.log("hi3");
+  console.log("hi6");
   event.stopImmediatePropagation();
 }
 
