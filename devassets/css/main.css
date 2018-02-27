@@ -340,8 +340,9 @@ p.speakername{
   font-size: 28px;
   text-align: center;
   bottom: 0.1em;
-  left: 3.5em;
+  left: 50%;
   transform: translateZ(30px);
+  transform: translateX(-50%);
 }
 
 h1.justbluesp{
@@ -817,7 +818,6 @@ button:hover span::before, button:hover span::after{
 }
 @media (min-width: 40em) {
   .promo {
-    display: inline;
     float: left;
     width: 33.333%;
     margin: 1em 0 0;
@@ -895,7 +895,6 @@ button:hover span::before, button:hover span::after{
 }
 @media (min-width: 40em) {
   .promo {
-    display: inline;
     float: left;
     width: 33.333%;
     margin: 1em 0 0;
