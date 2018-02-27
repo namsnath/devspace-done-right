@@ -363,15 +363,27 @@ img.externallink{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.8); 
+  background-color: rgba(0,0,0,0.95 ); 
   z-index: 200;
   cursor: pointer;
 }
 
 .overlaytext{
-margin-top: 30vh;
+margin-top: 25vh;
 padding: 4vh 4vh 4vh 0vh;
 background-color: rgba(0,0,0,1);
+}
+
+.overlay_img{
+  margin-top: 7vh;
+}
+
+.overlay_heading{
+
+}
+
+.overlay_content{
+
 }
 
 /* Codespace */

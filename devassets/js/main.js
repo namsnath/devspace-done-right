@@ -22,6 +22,7 @@ function init() {
                 scrollingSpeed: 700,
                 easing: 'swing',
                 css3: true,
+                loopbottom: true,
                 navigation: {
                     'textColor': '#000',
                     'bulletsColor': '#000',
