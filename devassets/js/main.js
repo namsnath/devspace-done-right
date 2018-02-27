@@ -28,7 +28,7 @@ function init() {
                     'textColor': '#000',
                     'bulletsColor': '#000',
                     'position': 'right',
-                    'tooltips': ['Home','What to expect','Speakers','Codespace','Register','Our Collabarators','FAQ','Find Us']
+                    'tooltips': ['Home','What to expect','Codespace','Register','Our Collabarators','FAQ','Find Us']
                 },
                 sectionSelector: '.section',
                 animateAnchor: false,
