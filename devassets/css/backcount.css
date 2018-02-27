@@ -38,6 +38,13 @@ h2{
   visibility: hidden;
 }
 
+#total {
+  text-align: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  color: #0094ff;
+}
+
 #clockdiv{
   font-weight: 400 !important;
   color: #fff;
