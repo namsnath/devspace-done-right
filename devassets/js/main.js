@@ -6,8 +6,6 @@ $(window).on('load', function () {
 });
 
 function init() {
-  
-
 
     // $('.navbar').hide().fadeIn();
 
@@ -38,8 +36,6 @@ function init() {
                 afterLoad: function(anchorLink, index){},
                 afterRender: function(){},
         });
-      
-      x
 
         $('#text-hide').css("display","block");
 
