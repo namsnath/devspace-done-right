@@ -471,6 +471,7 @@ cursor: url(../img/cross.png), auto;
   color: #0094ff;
   font-size: 20px;
   font-weight:400;
+  margin-top: 3%;
 }
 .faq_content{
   text-align: justify;
