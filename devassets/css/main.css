@@ -333,6 +333,7 @@ div.speakerimg{
   text-align: center;
   display: flex;
   justify-content: center;
+  cursor: alias;
 }
 
 p.speakername{
@@ -340,9 +341,8 @@ p.speakername{
   font-size: 28px;
   text-align: center;
   bottom: 0.1em;
-  left: 50%;
+  cursor: alias;
   transform: translateZ(30px);
-  transform: translateX(-50%);
 }
 p.designation{
   cursor: alias;
@@ -386,10 +386,14 @@ cursor: url(../img/cross.png), auto;
 }
 
 .overlay_heading{
+  font-family: 'Lato', sans-serif;
+  color: #0094ff;
   cursor: url(../img/cross.png), auto;
 }
 
 .overlay_content{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
   cursor: url(../img/cross.png), auto;
 }
 
