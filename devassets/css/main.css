@@ -346,12 +346,12 @@ p.speakername{
 }
 p.designation{
   cursor: alias;
+  margin-top: 1%;
 }
 h1.justbluesp{
   padding-bottom: 1% !important;
   color:#0094ff;
-}
-
+}1
 img.externallink{
   width: 3%;
   height: 3%;
