@@ -155,7 +155,7 @@ function speakerthree(){
 }
 
 function speakerfour(){
-  document.getElementsByClassName("spoverlay")[2].style.display="block";
+  document.getElementsByClassName("spoverlay")[3].style.display="block";
   console.log("hi4");
   event.stopImmediatePropagation();
 }
@@ -167,11 +167,24 @@ function speakerfive(){
 }
 
 function speakersix(){
-  document.getElementsByClassName("spoverlay")[4].style.display="block";
+  document.getElementsByClassName("spoverlay")[5].style.display="block";
   console.log("hi6");
   event.stopImmediatePropagation();
 }
 
+
+function speakerseven(){
+  document.getElementsByClassName("spoverlay")[6].style.display="block";
+  console.log("hi7");
+  event.stopImmediatePropagation();
+}
+
+
+function speakereigth(){
+  document.getElementsByClassName("spoverlay")[7].style.display="block";
+  console.log("hi8");
+  event.stopImmediatePropagation();
+}
 
 function off(){
   for(i=0;i<10;i++){

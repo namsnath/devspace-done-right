@@ -320,11 +320,11 @@ div p.wte-text{
 }
 
 #testing{
-  padding : 1% 0%;
+  padding : 0% 0%;
 }
 
 div#speaker-text {
-  margin-top: 4vh !important;
+  margin-top: 0vh !important;
 }
 
 div.speakerimg{
@@ -350,7 +350,7 @@ p.designation{
   margin-top: 1%;
 }
 h1.justbluesp{
-  padding-bottom: 1% !important;
+  padding-bottom: 0% !important;
   color:#0094ff;
 }
 img.externallink{
