@@ -136,57 +136,57 @@ $(document).ready(function(){
   });
 });
 
-function hitesh(){
+function hitesh(event){
   document.getElementsByClassName("spoverlay")[0].style.display="block";
   console.log("hi1");
   event.stopImmediatePropagation();
 }
 
-function speakertwo(){
+function speakertwo(event){
   document.getElementsByClassName("spoverlay")[1].style.display="block";
   console.log("hi2");
   event.stopImmediatePropagation();
 }
 
-function speakerthree(){
+function speakerthree(event){
   document.getElementsByClassName("spoverlay")[2].style.display="block";
   console.log("hi3");
   event.stopImmediatePropagation();
 }
 
-function speakerfour(){
+function speakerfour(event){
   document.getElementsByClassName("spoverlay")[3].style.display="block";
   console.log("hi4");
   event.stopImmediatePropagation();
 }
 
-function speakerfive(){
+function speakerfive(event){
   document.getElementsByClassName("spoverlay")[4].style.display="block";
   console.log("hi5");
   event.stopImmediatePropagation();
 }
 
-function speakersix(){
+function speakersix(event){
   document.getElementsByClassName("spoverlay")[5].style.display="block";
   console.log("hi6");
   event.stopImmediatePropagation();
 }
 
 
-function speakerseven(){
+function speakerseven(event){
   document.getElementsByClassName("spoverlay")[6].style.display="block";
   console.log("hi7");
   event.stopImmediatePropagation();
 }
 
 
-function speakereigth(){
+function speakereigth(event){
   document.getElementsByClassName("spoverlay")[7].style.display="block";
   console.log("hi8");
   event.stopImmediatePropagation();
 }
 
-function off(){
+function off(event){
   for(i=0;i<10;i++){
     document.getElementsByClassName("spoverlay")[i].style.display="none";
   }

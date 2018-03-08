@@ -351,6 +351,14 @@ p.designation{
 }
 h1.justbluesp{
   padding-bottom: 0% !important;
+  margin-bottom: 5px !important;
+  color:#0094ff;
+}
+
+h1.jbsp{
+  padding-bottom: 0% !important;
+  margin-top: 0.5px !important;
+  margin-bottom: 5px !important;
   color:#0094ff;
 }
 img.externallink{
@@ -657,15 +665,13 @@ background-color: hsla(0,0%,100%,0.05);
 
 
 .justblue {
-  padding-bottom: 5%;
+  padding-bottom: 1%;
   color:#0094ff;
 }
 
 .padman {
   padding :3rem 5rem;
 }
-
-
 
 #sectionfind {
   text-align: left;

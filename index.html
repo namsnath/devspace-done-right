@@ -155,7 +155,7 @@
 		
 		<!-- Speakers -->
 		<div class="section audidarkback">
-			<div class="container-fluid padman" onclick="off()">
+			<div class="container-fluid padman" onclick="off(event)">
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="speaker-text">
 						<h1 class="justbluesp bold" >OUR SPEAKERS</h1>
@@ -163,12 +163,12 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="testing">
-						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="hitesh()">
+						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="hitesh(event)">
 							<img src="devassets/img/hitesh.png" alt="speaker1" height="220px" width="220px">
 							<p class="speakername">Hitesh Choudhary</p>
 						</div>
 						<!-- button 1 -->
-						<a style="font-size:20px" onclick="hitesh()"><p class="designation">Youtuber<img src="devassets/img/external-link.png" class="externallink"></p></a>
+						<a style="font-size:20px" onclick="hitesh(event)"><p class="designation">Youtuber<img src="devassets/img/external-link.png" class="externallink"></p></a>
 						<!-- overlay 1 -->
 						<div class="container spoverlay">
 							<div class="row">
@@ -189,12 +189,12 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="testing">
-						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakertwo()">
+						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakertwo(event)">
 							<img src="devassets/img/vijay.png" alt="speaker1" height="220px" width="220px">
 							<p class="speakername" style='padding-left : 20%'>Vijay Kumar</p>
 						</div>
 						<!-- button 2 -->
-						<a style="font-size:20px" onclick="speakertwo()"><p class="designation">EX VP, Goldman Sachs<img src="devassets/img/external-link.png" class="externallink"></p></a>
+						<a style="font-size:20px" onclick="speakertwo(event)"><p class="designation">EX VP, Goldman Sachs<img src="devassets/img/external-link.png" class="externallink"></p></a>
 						<!-- overlay 2 -->
 						<div class="container spoverlay">
 							<div class="row">
@@ -216,12 +216,12 @@
 					</div>
 
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="testing">
-						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakerthree()">
+						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakerthree(event)">
 							<img src="devassets/img/monojit.png" alt="speaker1" height="220px" width="220px">
 							<p class="speakername">Monojit Choudhury</p>
 						</div>
 						<!-- button 3 -->
-						<a style="font-size:20px" onclick="speakerthree()"><p class="designation">Microsoft Researcher<img src="devassets/img/external-link.png" class="externallink"></p></a>
+						<a style="font-size:20px" onclick="speakerthree(event)"><p class="designation">Microsoft Researcher<img src="devassets/img/external-link.png" class="externallink"></p></a>
 						<!-- overlay 3 -->
 						<div class="container spoverlay">
 							<div class="row">
@@ -242,12 +242,12 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="testing">
-						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakerfour()">
+						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakerfour(event)">
 							<img src="devassets/img/chinmay.png" alt="speaker1" height="220px" width="220px">
 							<p class="speakername">Chinmaya Patnayak</p>
 						</div>
 						<!-- button 3 -->
-						<a style="font-size:20px" onclick="speakerfour()"><p class="designation">NVIDIA<img src="devassets/img/external-link.png" class="externallink"></p></a>
+						<a style="font-size:20px" onclick="speakerfour(event)"><p class="designation">NVIDIA<img src="devassets/img/external-link.png" class="externallink"></p></a>
 						<!-- overlay 3 -->
 						<div class="container spoverlay">
 							<div class="row">
@@ -269,21 +269,19 @@
 					</div>
 				</div>
 
-				<!-- workshop part  -->					
-
+				<!-- workshop part  -->	
 				<div class="row">
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="speaker-text">
-						<h1 class="justbluesp bold">OUR WORKSHOPS</h1>
+						<h1 class="jbsp bold">OUR WORKSHOPS</h1>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="testing">
-						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakerfive()">
+						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakerfive(event)">
 							<img src="devassets/img/amazonalexa_workshop.png" alt="speaker1" height="220px" width="220px">
-							<p class="speakername"></p>
 						</div>
 						<!-- button 1 -->
-						<a style="font-size:20px" onclick="speakerfive()"><p class="designation">Alexa Skill Building<img src="devassets/img/external-link.png" class="externallink"></p></a>
+						<a style="font-size:20px" onclick="speakerfive(event)"><p class="designation">Alexa Skill Building<img src="devassets/img/external-link.png" class="externallink"></p></a>
 						<!-- overlay 1 -->
 						<div class="container spoverlay">
 							<div class="row">
@@ -304,12 +302,11 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="testing">
-						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakersix()">
+						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakersix(event)">
 							<img src="devassets/img/azure_workshop.png" alt="speaker1" height="220px" width="220px">
-							<p class="speakername"></p>
 						</div>
 						<!-- button 2 -->
-						<a style="font-size:20px" onclick="speakersix()"><p class="designation">Azure Cloud Services<img src="devassets/img/external-link.png" class="externallink"></p></a>
+						<a style="font-size:20px" onclick="speakersix(event)"><p class="designation">Azure Cloud Services<img src="devassets/img/external-link.png" class="externallink"></p></a>
 						<!-- overlay 2 -->
 						<div class="container spoverlay">
 							<div class="row">
@@ -330,12 +327,11 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="testing">
-						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakerseven()">
+						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakerseven(event)">
 							<img src="devassets/img/bytecode_workshop.png" alt="speaker1" height="220px" width="220px">
-							<p class="speakername"></p>
 						</div>
 						<!-- button 3 -->
-						<a style="font-size:20px" onclick="speakerseven()"><p class="designation">Cyber Security<img src="devassets/img/external-link.png" class="externallink"></p></a>
+						<a style="font-size:20px" onclick="speakerseven(event)"><p class="designation">Cyber Security<img src="devassets/img/external-link.png" class="externallink"></p></a>
 						<!-- overlay 3 -->
 						<div class="container spoverlay">
 							<div class="row">
@@ -356,12 +352,11 @@
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="testing">
-						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakereigth()">
+						<div class="speakerimg" data-tilt data-tilt-scale="1.06" onclick="speakereigth(event)">
 							<img src="devassets/img/codingninja_workshop.png" alt="speaker1" height="220px" width="220px">
-							<p class="speakername"></p>
 						</div>
 						<!-- button 3 -->
-						<a style="font-size:20px" onclick="speakereigth()"><p class="designation">Competitive Coding<img src="devassets/img/external-link.png" class="externallink"></p></a>
+						<a style="font-size:20px" onclick="speakereigth(event)"><p class="designation">Competitive Coding<img src="devassets/img/external-link.png" class="externallink"></p></a>
 						<!-- overlay 3 -->
 						<div class="container spoverlay">
 							<div class="row">
@@ -373,9 +368,7 @@
 										<div class="col-md-8">
 											<h1 class="overlay_heading">Coding Ninja</h1>
 											<hr>
-											<h3 class="overlay_content">Want to stand out from the crowd of Competitive Coders? Join us on a workshop conducted by Coding Ninjas, the best Coding Institute in Delhi with instructors, who are graduates from Stanford University, IITs and IIITs. Check out their online and offline courses at <a href="https://www.codingninjas.in" target="_blank">https://www.codingninjas.in</a> 
-
-											
+											<h3 class="overlay_content">Want to stand out from the crowd of Competitive Coders? Join us on a workshop conducted by Coding Ninjas, the best Coding Institute in Delhi with instructors, who are graduates from Stanford University, IITs and IIITs. Check out their online and offline courses at <a href="https://www.codingninjas.in" target="_blank">www.codingninjas.in</a>
 											</h3>
 											<hr>
 										</div>
