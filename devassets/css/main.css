@@ -334,6 +334,7 @@ div.speakerimg{
   text-align: center;
   justify-content: center;
   cursor: alias;
+  display: inline-block;
 }
 
 p.speakername{
@@ -341,7 +342,6 @@ p.speakername{
   font-size: 28px;
   text-align: center;
   bottom: 0.1em;
-  left:20%;
   cursor: alias;
   transform: translateZ(30px);
 }
