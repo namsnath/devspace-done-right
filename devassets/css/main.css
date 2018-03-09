@@ -394,6 +394,7 @@ img.externallink {
   display: none;
   width: 100%;
   height: 100%;
+  z-index:1000;
   top: 0;
   left: 0;
   right: 0;
@@ -411,7 +412,7 @@ img.externallink {
 
 .overlaytext {
   margin-top: 25vh;
-  padding: 4vh 4vh 4vh 0vh;
+  padding: 6vh 6vh 6vh 0vh;
   background-color: rgba(0, 0, 0, 1);
   cursor: url(../img/cross.png), auto;
 }
