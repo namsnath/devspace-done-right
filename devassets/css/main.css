@@ -1096,10 +1096,11 @@ button:hover span::after {
 
 .codespacecolor {
   color: #0094ff;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .findus_content {
   letter-spacing: 0.08em;
   font-weight: 300;
+  font-size: 1.2em;
 }
