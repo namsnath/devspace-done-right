@@ -47,12 +47,6 @@ h5 {
   z-index: 99;
   transition: all 1s ease;
   padding-top: 20vh;
-<<<<<<< Updated upstream
-||||||| merged common ancestors
-
-=======
-
->>>>>>> Stashed changes
   line-height: 7.5vh;
   text-align: left;
   color: #fff;
@@ -399,13 +393,7 @@ img.externallink {
   left: 0;
   right: 0;
   bottom: 0;
-<<<<<<< Updated upstream
-  background-color: rgba(0, 0, 0, 0.95);
-||||||| merged common ancestors
-  background-color: rgba(0,0,0,0.95 );
-=======
-  background-color: rgba(0,0,0,0.95 );
->>>>>>> Stashed changes
+  background-color: rgba(0,0,0,0.95);
   z-index: 200;
   cursor: url(../img/cross.png), auto;
 }
@@ -470,12 +458,7 @@ img.externallink {
   #codedates {
     margin-left: 0;
   }
-<<<<<<< Updated upstream
-||||||| merged common ancestors
 
-=======
-
->>>>>>> Stashed changes
 }
 
 #coderegister {
