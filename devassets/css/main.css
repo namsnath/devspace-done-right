@@ -263,7 +263,6 @@ a.navbar-brand {
 }
 
 /*loader*/
-
 #intro-section {
   height: 100vh;
   background-color: black !important;
@@ -416,6 +415,7 @@ img.externallink {
 .overlay_content {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
+  font-size: 21px;
   cursor: url(../img/cross.png), auto;
 }
 
