@@ -1,7 +1,7 @@
 * {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  /*cursor: url('../img/cursor.png') 2 2, auto; */
+  /* cursor: url('../img/cursor.png') 2 2, auto; */
   /*cursor: all-scroll;*/
 }
 
@@ -47,12 +47,6 @@ h5 {
   z-index: 99;
   transition: all 1s ease;
   padding-top: 20vh;
-<<<<<<< Updated upstream
-||||||| merged common ancestors
-
-=======
-
->>>>>>> Stashed changes
   line-height: 7.5vh;
   text-align: left;
   color: #fff;
@@ -82,6 +76,10 @@ h5 {
   overflow: hidden;
   color: #fff;
   padding-left: 4rem;
+}
+
+#nobackground{
+  background: rgba(0, 0, 0, 1);
 }
 
 .register_logos {
@@ -140,7 +138,7 @@ h5 {
     -ms-transform: rotateZ(10deg);
   }
 }
-
+/* 
 #bottom-arrow,
 #bottom-arrow img {
   color: white;
@@ -153,7 +151,7 @@ h5 {
   width: 40px;
   height: auto;
   transition: all 1s ease;
-}
+} */
 
 #text-hide {
   display: none;
@@ -247,13 +245,15 @@ a:hover {
 .navbar.navbar-fixed-top {
   margin: 0;
   width: 100vw;
-  background: #000 !important;
+  /* background: #000 !important; */
+  background: rgba(0,0,0,0.2) !important;
 }
 
 .navbar-header {
   height: 7vh !important;
   width: 100vw;
-  background: #000 !important;
+  /* background: #000 !important; */
+  background: rgba(0,0,0,0.2) !important;
 }
 
 #navbar-logo {
@@ -398,13 +398,7 @@ img.externallink {
   left: 0;
   right: 0;
   bottom: 0;
-<<<<<<< Updated upstream
-  background-color: rgba(0, 0, 0, 0.95);
-||||||| merged common ancestors
   background-color: rgba(0,0,0,0.95 );
-=======
-  background-color: rgba(0,0,0,0.95 );
->>>>>>> Stashed changes
   z-index: 200;
   cursor: url(../img/cross.png), auto;
 }
@@ -469,12 +463,6 @@ img.externallink {
   #codedates {
     margin-left: 0;
   }
-<<<<<<< Updated upstream
-||||||| merged common ancestors
-
-=======
-
->>>>>>> Stashed changes
 }
 
 #coderegister {
@@ -528,6 +516,15 @@ img.externallink {
   text-align: 10px;
   letter-spacing: 0.08em;
   font-weight: 300;
+}
+
+.faq_content a{
+    border-bottom: 1px solid white;
+}
+  
+.faq_content a:hover {
+    color: #0094ff;
+    border-bottom: none;
 }
 
 /* collabarators */
@@ -734,8 +731,14 @@ textarea {
   padding-left: 5em;
 }
 
-#findus a {
-  text-decoration: none;
+
+#findus a{
+  border-bottom: 1px solid white;
+}
+
+#findus a:hover {
+  color: #0094ff;
+  border-bottom: none;
 }
 
 #findinfo {
@@ -746,9 +749,9 @@ textarea {
   position: relative;
 }
 
-#findinfo a {
+/* #findinfo a {
   text-decoration: underline;
-}
+} */
 
 .lastside {
   margin-top: 10vh;
@@ -1131,6 +1134,7 @@ button:hover span::after {
   letter-spacing: 0.08em;
   font-weight: 300;
   font-size: 1.2em;
+  text-align: justify;
 }
 
 /* For the Codespace Website */
@@ -1203,4 +1207,97 @@ button:hover span::after {
 .cs-section-internal {
   width: 100vw;
   height: 100vh;
+}
+
+/* scroll button */
+
+
+
+@-webkit-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@-moz-keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+@keyframes ani-mouse {
+	0% {
+	opacity: 1;
+	top: 29%;
+	}
+	15% {
+	opacity: 1;
+	top: 50%;
+	}
+	50% {
+	opacity: 0;
+	top: 50%;
+	}
+	100% {
+	opacity: 0;
+	top: 29%;
+	}
+}
+ .scroll-btn {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+  text-align: center;
+  bottom: 1%;
+}
+.scroll-btn .mouse {
+	position: relative;
+	display: block;
+	width: 25px;
+	height: 45px;
+	margin: 0 auto 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid white;
+	border-radius: 23px;
+}
+.scroll-btn .mouse > * {
+	position: absolute;
+	display: block;
+	top: 29%;
+	left: 50%;
+	width: 8px;
+	height: 8px;
+	margin: -4px 0 0 -4px;
+	background: #0094ff;
+	border-radius: 50%;
+	-webkit-animation: ani-mouse 2.5s linear infinite;
+	-moz-animation: ani-mouse 2.5s linear infinite;
+	animation: ani-mouse 2.5s linear infinite;
 }

@@ -53,7 +53,7 @@
 		<span onclick="$.fn.pagepiling.moveTo(6);">Our Collaborators</span>
 		<span onclick="$.fn.pagepiling.moveTo(7);">FAQs</span>
 		<span onclick="$.fn.pagepiling.moveTo(8);">Contact Us</span>
-		<span class="lastside">
+		<span class="lastside" id="nobackground">
 			<ul class="iconsside">
 				<li>
 					<a href="https://Twitter.com/csivitu" class="fa fa-twitter"></a>
@@ -93,9 +93,14 @@
 						<span>Register</span>
 					</button>
 					<div id="bottom-arrow" class=" animated bounceInUp">
-						<a href="#">
-							<img src="devassets/img/down-arrow.png" alt="">
-						</a>
+						<span class="scroll-btn">
+							<a href="#">
+								<span class="mouse">
+									<span>
+									</span>
+								</span>
+							</a>
+						</span>						
 					</div>
 				</div>
 			</div>
@@ -122,7 +127,7 @@
 						<img src="devassets/img/keynote.svg" alt="screen" class="center-block wte">
 						<h3 class="justblue">Inspiring keynotes</h3>
 						<div id="hide-mob">
-							<p class="wte-text">The tale of success is probably the only one that is heard. Experience enthusiasm coupled with a surge of passion when you hear it from the achievers themselves.</p>
+							<p class="wte-text">The tale of success is the only one that is heard. Experience enthusiasm coupled with a surge of passion when you get to hear it from the achievers.</p>
 						</div>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="for-padding">
@@ -136,7 +141,7 @@
 						<img src="devassets/img/browser.svg" alt="codespace" class="center-block wte">
 						<h3 class="justblue">Hackathon</h3>
 						<div id="hide-mob">
-							<p class="wte-text"> Our flagship event Codespace, is back to test you on technologies of future. Think you have the next idea that impacts the world? Time to bring it out of the closet.</p>
+							<p class="wte-text"> Our flagship event Codespace, is back to test you on technologies of future. Think you have the next idea that impacts the world?</p>
 						</div>
 					</div>
 				</div>
@@ -210,7 +215,7 @@
 							<p class="speakername">Monojit Choudhury</p>
 						</div>
 						<!--button 3-->
-						<a style="font-size:20px" onclick="speakerthree(event)"><p class="designation">Microsoft Researcher<img src="devassets/img/external-link.png" class="externallink"></p></a>
+						<a style="font-size:20px" onclick="speakerthree(event)"><p class="designation">Microsoft, Researcher<img src="devassets/img/external-link.png" class="externallink"></p></a>
 						<!--overlay 3-->
 						<div class="container spoverlay">
 							<div class="row">
@@ -236,7 +241,7 @@
 							<p class="speakername">Chinmaya Patnayak</p>
 						</div>
 						<!--button 3-->
-						<a style="font-size:20px" onclick="speakerfour(event)"><p class="designation">NVIDIA<img src="devassets/img/external-link.png" class="externallink"></p></a>
+						<a style="font-size:20px" onclick="speakerfour(event)"><p class="designation">NVIDIA Engineer<img src="devassets/img/external-link.png" class="externallink"></p></a>
 						<!--overlay 3-->
 						<div class="container spoverlay">
 							<div class="row">
@@ -552,7 +557,7 @@
 							How will I know if I've been registered or not?
 						</div>
 						<div class="faq_content">
-							After registering online, you would receive a confirmation email.
+							After registering online, you would receive a confirmation email with transaction details from <a href="https://www.facebook.com/csivitu/" target="_blank" title="Visit fb page" id="findusnow">csivit</a>.
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-12 col-xs-12">
@@ -576,7 +581,7 @@
 							How do I reach VIT, Vellore?
 						</div>
 						<div class="faq_content">
-							Katpadi Railway Station and Chitoor bus stand are the nearest junctions. <a href="http://www.vit.ac.in/files/vellore.pdf" title="Get the directions" target="_blank">Click here to get the directions.</a>
+							Katpadi Railway Station and Chitoor bus stand are the nearest junctions. <a href="http://www.vit.ac.in/files/vellore.pdf" title="Get the directions" target="_blank" id="findusnow">Click here to get the directions.</a>
 						</div>
 					</div>
 				</div>
@@ -594,14 +599,14 @@
 						<h3 class="codespacecolor">About Us</h3>
 						<p class="findus_content">Computer Society of India- VIT Student Branch is composed of skilled designers, developers and tech enthusiasts working together to present a variety of solutions, services and products. To push technology forward, we organize several	events, workshops and hackathons year in and out.</p>
 					</div>
-					<h3 class="codespacecolor">Contact</h3>
+					<h3 class="codespacecolor">Contact Us</h3>
 					<h5 class="findus_content">Email:
 						<a href="mailto:contact@devspace.tech">contact@devspace.tech</a>
 					</h5>
-					<h5 class="findus_content0">Phone:
+					<h5 class="findus_content">Phone:
 						<a href="tel:9420645590">+91-9420645590</a>
 					</h5>
-					<h5>
+					<h5 class="findus_content">
 						<span style="color: transparent">Phone: </span>
 						<a href="tel:9971112298">+91-9971112298</a>
 					</h5>
@@ -620,7 +625,7 @@
 						</li>
 					</ul>
 					<div class="coc">
-						<h4><a href="http://confcodeofconduct.com/" target="_blank">Code of Conduct</a></h4>
+						<h5>View </italic><a href="http://confcodeofconduct.com/" target="_blank">Code of Conduct</a></h5>
 					</div>
 				</div>
 			</div>
