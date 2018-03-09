@@ -47,6 +47,12 @@ h5 {
   z-index: 99;
   transition: all 1s ease;
   padding-top: 20vh;
+<<<<<<< Updated upstream
+||||||| merged common ancestors
+
+=======
+
+>>>>>>> Stashed changes
   line-height: 7.5vh;
   text-align: left;
   color: #fff;
@@ -392,7 +398,13 @@ img.externallink {
   left: 0;
   right: 0;
   bottom: 0;
+<<<<<<< Updated upstream
   background-color: rgba(0, 0, 0, 0.95);
+||||||| merged common ancestors
+  background-color: rgba(0,0,0,0.95 );
+=======
+  background-color: rgba(0,0,0,0.95 );
+>>>>>>> Stashed changes
   z-index: 200;
   cursor: url(../img/cross.png), auto;
 }
@@ -457,6 +469,12 @@ img.externallink {
   #codedates {
     margin-left: 0;
   }
+<<<<<<< Updated upstream
+||||||| merged common ancestors
+
+=======
+
+>>>>>>> Stashed changes
 }
 
 #coderegister {
@@ -1113,4 +1131,76 @@ button:hover span::after {
   letter-spacing: 0.08em;
   font-weight: 300;
   font-size: 1.2em;
+}
+
+/* For the Codespace Website */
+.cs-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-size: cover;
+  background-position: center;
+}
+
+.cs-track1 {
+  background-image: url(../img/codespace/track1.png);
+}
+.cs-track2 {
+  background-image: url(../img/codespace/track2.png);
+}
+.cs-track3 {
+  background-image: url(../img/codespace/track3.png);
+}
+.cs-track4 {
+  background-image: url(../img/codespace/track4.png);
+}
+
+.cs-caption-container {
+  background: transparent;
+
+  padding: 0;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+}
+
+.cs-caption-number {
+  display: none;
+}
+
+.cs-caption-content {
+  letter-spacing: 0.3px;
+  font-size: 2rem;
+  color: #0094ff;
+  font-weight: normal;
+}
+
+.cs-caption-header {
+  width: 100%;
+  text-align: center;
+  padding-top: 15%;
+  padding-bottom: 10%;
+  font-size: 5rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+
+  text-shadow: 0 0 6px #000000;
+}
+
+.cs-caption-header small {
+  letter-spacing: 0;
+  display: block;
+  font-size: 2rem;
+  text-transform: lowercase;
+}
+
+.cs-section-internal {
+  width: 100vw;
+  height: 100vh;
 }
