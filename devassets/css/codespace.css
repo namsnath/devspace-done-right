@@ -22,19 +22,6 @@
   background-position: center;
 }
 
-.cs-track1 {
-  background-image: url(../img/codespace/track1.png);
-}
-.cs-track2 {
-  background-image: url(../img/codespace/track2.png);
-}
-.cs-track3 {
-  background-image: url(../img/codespace/track3.png);
-}
-.cs-track4 {
-  background-image: url(../img/codespace/track4.png);
-}
-
 .cs-caption-container {
   position: absolute;
   top: 0;
