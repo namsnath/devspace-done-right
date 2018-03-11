@@ -1,3 +1,5 @@
+(function (document) {
+
 var ww = window.innerWidth;
 var wh = window.innerHeight;
 var isMobile = ww < 500;
@@ -256,3 +258,4 @@ window.onload = function() {
   window.tunnel = new Tunnel();
 
 };
+})(document);

@@ -1,3 +1,4 @@
+(function() {
 var canvas = document.querySelector('#scene-1');
 var width = canvas.offsetWidth,
     height = canvas.offsetHeight;
@@ -76,6 +77,11 @@ function render(a) {
     renderer.render(scene, camera);
 }
 
+window.renderer = renderer;
+window.camera = camera;
+window.canvas = canvas;
+window.scene = scene;
+
 function onResize() {
     canvas.style.width = '100vw';
     canvas.style.height = '100vh';
@@ -87,9 +93,14 @@ function onResize() {
 }
 
 requestAnimationFrame(render);
-onResize();
 var resizeTm;
 window.addEventListener("resize", function() {
     resizeTm = clearTimeout(resizeTm);
     resizeTm = setTimeout(onResize, 200);
 });
+
+setTimeout(() => {
+    onResize();
+}, 1000);
+
+})();
