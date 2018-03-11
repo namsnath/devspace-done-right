@@ -44,7 +44,9 @@
 
   padding: 10%;
   height: 100%;
-  width: 100%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .cs-caption-number {
@@ -83,64 +85,15 @@
   height: 100vh;
 }
 
-
-.cs-figure.effect-apollo {
-	background: #3498db;
+.cs-gallery-container {
+	padding-top: 5rem;
 }
 
-.cs-figure.effect-apollo img {
-	opacity: 0.95;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale3d(1.05,1.05,1);
-	transform: scale3d(1.05,1.05,1);
-}
-
-.cs-figure.effect-apollo figcaption::before {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(255,255,255,0.5);
-	content: '';
-	-webkit-transition: -webkit-transform 0.6s;
-	transition: transform 0.6s;
-	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
-	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
-}
-
-.cs-figure.effect-apollo p {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	margin: 3em;
-	padding: 0 1em;
-	max-width: 150px;
-	border-right: 4px solid #fff;
-	text-align: right;
-	opacity: 0;
-	-webkit-transition: opacity 0.35s;
-	transition: opacity 0.35s;
-}
-
-.cs-figure.effect-apollo h2 {
-	text-align: left;
-}
-
-.cs-figure.effect-apollo:hover img {
-	opacity: 0.6;
-	-webkit-transform: scale3d(1,1,1);
-	transform: scale3d(1,1,1);
-}
-
-.cs-figure.effect-apollo:hover figcaption::before {
-	-webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
-	transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
-}
-
-.cs-figure.effect-apollo:hover p {
-	opacity: 1;
-	-webkit-transition-delay: 0.1s;
-	transition-delay: 0.1s;
+@media screen and (max-width: 1025px) {
+	.cs-caption-container {
+		width: 90%;
+		padding: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 }

@@ -23,7 +23,7 @@ function init() {
         'textColor': '#000',
         'bulletsColor': '#000',
         'position': 'right',
-        'tooltips': ['Home', 'Track 1', 'Track 2', 'Track 3', 'Track 4', 'Track 5']
+        'tooltips': ['Home', 'Track 1', 'Track 2', 'Track 3', 'Track 4', 'Track 5', 'Past Editions']
       },
       sectionSelector: '.section',
       animateAnchor: false,
@@ -34,7 +34,6 @@ function init() {
     });
     $('#text-hide').css("display", "block");
     $.fn.pagepiling.moveSectionDown();
-    $.fn.pagepiling.moveTo(6);
 
     setTimeout(deleteNode, 200);
     $('.navbar').css("display", "block");

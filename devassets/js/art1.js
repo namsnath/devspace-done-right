@@ -18,7 +18,8 @@ camera.position.set(0, 0, 100);
 
 var geometry = new THREE.SphereGeometry(30, 4, 30);
 var geometry = new THREE.BoxGeometry(49, 49, 49, 7, 7, 7);
-for(var i=0;i<geometry.faces.length;i++){
+
+for (var i=0;i<geometry.faces.length;i++){
     var face = geometry.faces[i];
     var vector = geometry.vertices[face.c];
     var v1 = geometry.vertices[face.a];
