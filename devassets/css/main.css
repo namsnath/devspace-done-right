@@ -138,20 +138,6 @@ h5 {
     -ms-transform: rotateZ(10deg);
   }
 }
-/*
-#bottom-arrow,
-#bottom-arrow img {
-  color: white;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: -1;
-  margin-bottom: 50px;
-  width: 40px;
-  height: auto;
-  transition: all 1s ease;
-} */
 
 #text-hide {
   display: none;
