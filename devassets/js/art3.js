@@ -5,8 +5,8 @@ var width = canvas.offsetWidth,
 
 var colors = [
     new THREE.Color(0x002040),
+    new THREE.Color(0x003060),
     new THREE.Color(0x004080),
-    new THREE.Color(0x0060B0)
 ];
 
 var renderer = new THREE.WebGLRenderer({
