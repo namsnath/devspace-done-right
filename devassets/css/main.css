@@ -28,6 +28,10 @@ body {
   width: 30%;
 }
 
+.iamcentred{
+  margin: auto; max-width: 300px;
+}
+
 h5 {
   font-family: 'Lato' !important;
   /* Segoe UI Light is only on Windows */
