@@ -23,7 +23,7 @@ function init() {
         'textColor': '#000',
         'bulletsColor': '#000',
         'position': 'right',
-        'tooltips': ['Home', 'ML and AI', 'AR and VR', 'Fintech and Blockchain', 'Cloud Computing', 'Digital Literacy', 'Past Editions']
+        'tooltips': ['Home', 'ML and AI', 'AR and VR', 'Fintech and Blockchain', 'Cloud Computing', 'Digital Literacy', /*'Past Editions'*/]
       },
       sectionSelector: '.section',
       animateAnchor: false,
