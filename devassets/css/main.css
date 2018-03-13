@@ -516,7 +516,10 @@ img.externallink {
 
 /* collabarators */
 
-#testing_sponsors {
+h1#paddingnahi{
+  margin-bottom: 5px !important;
+}
+.testing_sponsors {
   height: 75%;
   width: 75%;
 }
@@ -1213,4 +1216,11 @@ button:hover span::after {
 	-webkit-animation: ani-mouse 2.5s linear infinite;
 	-moz-animation: ani-mouse 2.5s linear infinite;
 	animation: ani-mouse 2.5s linear infinite;
+}
+
+
+#knowmore{
+  position: absolute !important;
+  top: 74%;
+  left: 8%;
 }

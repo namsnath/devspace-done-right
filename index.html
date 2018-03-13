@@ -21,6 +21,9 @@
 	<script type="text/javascript" src="devassets/js/pagePiling.js"></script>
 	<script src="devassets/js/main.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+
+	
+
 </head>
 <body>
 	<!-- Loading Section -->
@@ -45,14 +48,14 @@
 		</div>
 	</nav>
 	<div class="extend-right">
-		<span class="active" onclick="$.fn.pagepiling.moveTo(1);">Home</span>
-		<span onclick="$.fn.pagepiling.moveTo(2);">What to expect</span>
-		<span onclick="$.fn.pagepiling.moveTo(3);">Our Speakers</span>
-		<span onclick="$.fn.pagepiling.moveTo(4);">Codespace</span>
-		<span onclick="$.fn.pagepiling.moveTo(5);">Register</span>
-		<span onclick="$.fn.pagepiling.moveTo(6);">Our Collaborators</span>
-		<span onclick="$.fn.pagepiling.moveTo(7);">FAQs</span>
-		<span onclick="$.fn.pagepiling.moveTo(8);">Contact Us</span>
+		<span class="active" onclick="closeNav(1);">Home</span>
+		<span onclick="closeNav(2);">What to expect</span>
+		<span onclick="closeNav(3);">Our Speakers</span>
+		<span onclick="closeNav(4);">Codespace</span>
+		<span onclick="closeNav(5);">Register</span>
+		<span onclick="closeNav(6);">Our Collaborators</span>
+		<span onclick="closeNav(7);">FAQs</span>
+		<span onclick="closeNav(8);">Contact Us</span>
 		<span class="lastside" id="nobackground">
 			<ul class="iconsside">
 				<li>
@@ -393,6 +396,11 @@
 						<sup>th</sup> March
 					</div>
 				</div>
+				<div class="row">
+				<button type="button" class="btn-animate" onclick="document.location.href='https://codespace.csivit.com/'" id="knowmore" style="display:none;">
+					<span>Know more</span>
+				</button>
+				</div>
 			</div>
 		</div>
 		<!-- Section-6 -->
@@ -451,63 +459,77 @@
 			<div class="container">
 				<div class="row" >
 					<div class="col-lg-32 col-md312 col-sm-12 col-xs-12 text-center" id="speaker-text">
-						<h1 class="justblue bold" style="padding-bottom:1%">OUR COLLABORATORS</h1>
+						<h1 class="justblue bold" style="padding-bottom:1%" id="paddingnahi">OUR COLLABORATORS</h1>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						 <img src="devassets/img/amazon.png" alt="speaker1" id="testing_sponsors"> 
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						 <img src="devassets/img/amazon.png" alt="speaker1" class="img-responsive testing_sponsors"> 
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="devassets/img/microsoft.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/microsoft.png" alt="speaker1"  class="img-responsive testing_sponsors">
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="devassets/img/nvidia.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/nvidia.png" alt="speaker1"  class="img-responsive testing_sponsors">
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="devassets/img/internshala.png" alt="speaker1" id="testing_sponsors">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="devassets/img/sketch.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="devassets/img/wolfram_lang.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="devassets/img/amazonalexa.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="	devassets/img/hackerearth.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/internshala.png" alt="speaker1" class="img-responsive testing_sponsors">
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="devassets/img/eride.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/sketch.png" alt="speaker1"  class="img-responsive testing_sponsors">
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="devassets/img/coding_ninja.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/wolfram_lang.png" alt="speaker1"  class="img-responsive testing_sponsors">
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="devassets/img/bytecode.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/amazonalexa.png" alt="speaker1"  class="img-responsive testing_sponsors">
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="	devassets/img/product_hunt.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="	devassets/img/hackerearth.png" alt="speaker1"  class="img-responsive testing_sponsors">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/eride.png" alt="speaker1"  class="img-responsive testing_sponsors">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/coding_ninja.png" alt="speaker1"  class="img-responsive testing_sponsors">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/bytecode.png" alt="speaker1"  class="img-responsive testing_sponsors">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="	devassets/img/product_hunt.png" alt="speaker1"  class="img-responsive testing_sponsors">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/hasura.png" alt="speaker1"  class="img-responsive testing_sponsors">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/tech.png" alt="speaker1"  class="img-responsive testing_sponsors">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/gate.png" alt="speaker1"  class="img-responsive testing_sponsors">
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/jetbrains.png" alt="speaker1"  class="img-responsive testing_sponsors">
 					</div>
 				</div>
 				<div class="row" style="padding-bottom:10%">
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="devassets/img/hasura.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/hasura.png" alt="speaker1"  class="img-responsive testing_sponsors" style="display: none;">
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="devassets/img/tech.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/krypc_logo.png" alt="speaker1"  class="img-responsive testing_sponsors">
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="devassets/img/gate.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/vfs.png" alt="speaker1"  class="img-responsive testing_sponsors">
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="sponsor_test">
-						<img src="devassets/img/jetbrains.png" alt="speaker1" id="testing_sponsors" class="img-resposive">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="devassets/img/jetbrains.png" alt="speaker1"  class="img-responsive testing_sponsors" style="display: none;">
 					</div>
 				</div>
 			</div>
@@ -592,7 +614,7 @@
 			<div id="findus">
 				<h2 style="color:#0094ff">Find Us</h2>
 				<div id="map">
-					<iframe src="https://snazzymaps.com/embed/39214" width="100%" height="auto" style="border-radius:0.4em 0 0 0.4em;border:0px solid #01030e;height:60vh;"></iframe>
+					<iframe id="snazzymap" width="100%" height="auto" style="border-radius:0.4em 0 0 0.4em;border:0px solid #01030e;height:60vh;"></iframe>
 				</div>
 				<div id="findinfo">
 					<div id="aboutcsivit">

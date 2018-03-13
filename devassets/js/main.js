@@ -1,8 +1,21 @@
+window.x = 0
 if (/Mobi/i.test(navigator.userAgent) || /Android/i.test(navigator.userAgent)) { window.location = "https://m.devspace.tech"; }
 $(window).on('load', function () {
   init();
+  $('#knowmore').css("display","block");
 });
+function closeNav(choice) {
+  $.fn.pagepiling.moveTo(choice);
+  $('#nav-icon3').toggleClass('open');
+  x++;
+  if (x % 2 != 0) {
+    $('.extend-right').addClass('transformHack');
+  }
+  else {
+    $('.extend-right').removeClass('transformHack');
+  }
 
+}
 function init() {
   // $('.navbar').hide().fadeIn();
   $(function () {
@@ -30,6 +43,7 @@ function init() {
       afterLoad: function (anchorLink, index) { },
       afterRender: function () { },
     });
+    $('#snazzymap').attr("src","https://snazzymaps.com/embed/39214");
     $('#text-hide').css("display", "block");
     $.fn.pagepiling.moveSectionDown();
     setTimeout(deleteNode, 200);
@@ -93,7 +107,6 @@ window.onload = function () {
   document.body.appendChild(css);
 };
 
-var x = 0;
 $(document).ready(function () {
   $('#nav-icon3').click(function () {
     $(this).toggleClass('open');
