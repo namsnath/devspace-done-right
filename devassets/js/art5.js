@@ -11,7 +11,7 @@
     });
     renderer.setPixelRatio(window.devicePixelRatio > 1 ? 2 : 1);
     renderer.setSize(width, height);
-    renderer.setClearColor(0xFFFFFFF);
+    renderer.setClearColor(0x00000F);
 
     var scene = new THREE.Scene();
 
