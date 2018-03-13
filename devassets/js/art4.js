@@ -94,6 +94,6 @@ window.addEventListener("resize", function(){
 
 setTimeout(() => {
     onResize();
-}, 1000);
+}, 3000);
 
 })();
