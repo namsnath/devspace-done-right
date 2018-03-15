@@ -156,7 +156,7 @@ function speakerseven(event) {
   document.getElementsByClassName("spoverlay")[6].style.display = "block";
   event.stopImmediatePropagation();
 }
-function speakereigth(event) {
+function speakereight(event) {
   document.getElementsByClassName("spoverlay")[7].style.display = "block";
   event.stopImmediatePropagation();
 }
