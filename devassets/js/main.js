@@ -1,5 +1,5 @@
 window.x = 0
-if (/Mobi/i.test(navigator.userAgent) || /Android/i.test(navigator.userAgent)) { window.location = "m.devspace.csivit.com"; }
+if (/Mobi/i.test(navigator.userAgent) || /Android/i.test(navigator.userAgent)) { window.location = "http://m.devspace.csivit.com"; }
 $(window).on('load', function () {
   init();
   $('#knowmore').css("display","block");
